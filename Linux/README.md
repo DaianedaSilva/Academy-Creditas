@@ -34,4 +34,6 @@
 
   <img src="src/terminalInicial.png" width="500" title="hover text">
 
+
+  O nome antes do @ na imagem significa o nome do usuário da máquina, já o nome após o @ é o nome da própria maquina. Neste caso o usuário é <i>daiane</i> e o nome da máquina é <i>CRED-DH4Rf73</i>
  </section>
