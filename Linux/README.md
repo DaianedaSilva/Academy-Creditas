@@ -11,6 +11,12 @@
    <li>
   <a href ="#Terminal"> Entendendo o Terminal </a>
   </li>
+     <li>
+  <a href ="#Comandos"> Comandos Linux </a>
+  </li>
+     <li>
+  <a href ="#Terminal"> Entendendo o Terminal </a>
+  </li>
 </ul>
 
 <section> <p id="OqueE">O que é?</p>
@@ -40,4 +46,33 @@
  <section>
  <p id = "Comandos">Comandos Linux</p>
   
+  Irei listar os principais comandos utilizados no terminal do linux, e logo após uma breve explicação.
+  
+  
+  * pwd
+   Mostra em qual pasta você está, se mostrar apenas uma barra ( / ), quer dizer que está na raiz do terminal.
+   
+  * ls
+  Mostra quais arquivos e pastas estão no diretório
+  
+  * clear
+  Limpa todos os comandos do terminal
+   
+  * su root
+  Entrar como administrador, vai solicitar do administrador.
+  
+  * mkdir <i>NOME DA PASTA</i>
+  Comando para criar pastas, so funcionará se tiver permissão de administrador
+  O Linux permite que seja criado pastas com nomes iguais desde que tenham diferença de maiúsculo ou minúsculo, 
+   <img src="src/pastasComMesmoNome.png" width="500" title="Pastas com Mesmo Nome">
+  
+  * rmdir <i>NOME DA PASTA</i>
+  Comando para apagar uma pasta. Se deseja apagar uma pasta que está dentro de outra, deve-se ir atéo diretório que a pasta se encontra.
+  
+  * cd <i>NOME DA PASTA</i>
+  Comando para abrir uma pasta
+  
+  * cd ..
+  Comando para sair daquela pasta e ir para a anterior dela
+    
 </section>
