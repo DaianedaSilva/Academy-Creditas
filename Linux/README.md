@@ -1,10 +1,34 @@
 # Linux
 
 ## Conteúdo
-<p align="center">
+<ul>
+  <li>
   <a href = "#OqueE"> O que é </a>
-  
-</p>
+  </li>
+</ul>
+2
+2
+2
+2
+2
+2
+2
+2
+
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+
 <section ><p id="#OqueE">O que é?</p>
 
   É um sistema operacional gratuito, onde contém código aberto, ou seja, qualquer pessoa pode criar e distribuir aplicações. Existem inúmeras versões do sistem operacional como Ubuntu, debian, Linux Mint etc.
