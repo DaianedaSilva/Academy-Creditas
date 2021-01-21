@@ -32,6 +32,6 @@
   Assim que abrimos o terminal nos deparamos com algo do tipo:
   
 
-  <img src="src/terminalInicial.png" width="350" title="hover text">
+  <img src="src/terminalInicial.png" width="500" title="hover text">
 
  </section>
