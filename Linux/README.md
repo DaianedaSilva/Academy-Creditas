@@ -9,7 +9,7 @@
   <a href ="#Windows"> Usando Linux no Windows </a>
   </li>
    <li>
-  <a href ="#Comandos"> Comandos Linux </a>
+  <a href ="#Terminal"> Entendendo o Terminal </a>
   </li>
 </ul>
 
@@ -23,12 +23,9 @@
  <section> <p id = "Windows">Usando Linux no Windows</p>
   Hoje é possivel rodar um simulador de terminal de Linux no windows sem precisar necessariamente instalar o Linux como segundo sistema operacional. 
   Veja o tutorial no site: https://www.ssl.com/pt/como/ativar-o-subsistema-linux-instalar-o-ubuntu-windows-10/
-  
  </section>
 
-<section> <p id = "Comandos">Comandos Linux</p>
-  
-  <p> Entendendo o Terminal </p>
+<section>  <p id = "Terminal"> Entendendo o Terminal </p>
   Assim que abrimos o terminal nos deparamos com algo do tipo:
   
 
@@ -36,4 +33,11 @@
 
 
   O nome antes do @ na imagem significa o nome do usuário da máquina, já o nome após o @ é o nome da própria maquina. Neste caso o usuário é <i>daiane</i> e o nome da máquina é <i>CRED-DH4Rf73</i>
+  
+  O simbolo <b>~</b> significa que esta na pasta do usuário, já o simbolo <b>$</b> significa que é um usuário limitado, ou seja não consegue fazer tudo que o administrador faz
  </section>
+ <hr>
+ <section>
+ <p id = "Comandos">Comandos Linux</p>
+  
+</section>
