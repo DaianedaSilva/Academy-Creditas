@@ -30,6 +30,6 @@
   
   <p> Entendendo o Terminal </p>
   Assim que abrimos o terminal nos deparamos com algo do tipo:
-  ![Alt text](relative/path/to/terminal inicial.PNG "Title")
+  ![Screenshot](src/terminalInicial.png)
 
  </section>
