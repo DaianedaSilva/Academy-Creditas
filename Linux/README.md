@@ -31,6 +31,7 @@
   <p> Entendendo o Terminal </p>
   Assim que abrimos o terminal nos deparamos com algo do tipo:
   
-  ![Screenshot](src/terminalInicial.png)
+
+  <img src="src/terminalInicial.png" width="350" title="hover text">
 
  </section>
