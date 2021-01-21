@@ -5,4 +5,4 @@ O que é?
   O sistema operacional contém um terminal (shell), onde através de comandos pode acessar as camadas de mais baixo nível do sistema, assim fazendo atualizações ou modificações. Além disto pode andar em diretórios diretamente por comandos, criar arquivos de texto, entre outras coisas.
   
   
-#Comandos Linux
+## Comandos Linux
