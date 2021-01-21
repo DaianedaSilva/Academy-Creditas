@@ -30,6 +30,7 @@
   
   <p> Entendendo o Terminal </p>
   Assim que abrimos o terminal nos deparamos com algo do tipo:
+  
   ![Screenshot](src/terminalInicial.png)
 
  </section>
