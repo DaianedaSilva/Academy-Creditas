@@ -50,30 +50,32 @@
   
   Irei listar os principais comandos utilizados no terminal do linux, e logo após uma breve explicação.
   
-  * pwd  --> Mostra em qual pasta você está, se mostrar apenas uma barra ( / ), quer dizer que está na raiz do terminal.
+  * <b><i> pwd </i></b>  --> Mostra em qual pasta você está, se mostrar apenas uma barra ( / ), quer dizer que está na raiz do terminal.
    
-  * ls
+  * <b><i> ls  </i></b>
   --> Mostra quais arquivos e pastas estão no diretório
-  * ls -al 
+  
+  *  <b><i> ls -al   </i></b>
   --> Vai listar todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc.
-  * clear
+  
+  *  <b><i> clear  </i></b>
   --> Limpa todos os comandos do terminal
    
-  * su root
+  *  <b><i> su root  </i></b>
   --> Entrar como administrador, vai solicitar do administrador.
   
-  * mkdir <i>NOME DA PASTA</i>
+  *  <b><i> mkdir  </i></b> <i>NOME DA PASTA</i>
   --> Comando para criar pastas, so funcionará se tiver permissão de administrador
   O Linux permite que seja criado pastas com nomes iguais desde que tenham diferença de maiúsculo ou minúsculo, 
    <img src="src/pastasComMesmoNome.png" width="500" title="Pastas com Mesmo Nome">
   
-  * rmdir <i>NOME DA PASTA</i>
+  *  <b><i> rmdir </i></b>  <i>NOME DA PASTA</i>
   --> Comando para apagar uma pasta. Se deseja apagar uma pasta que está dentro de outra, deve-se ir atéo diretório que a pasta se encontra.
   
-  * cd <i>NOME DA PASTA</i>
+  *  <b><i> cd  </i></b> <i>NOME DA PASTA</i>
   --> Comando para abrir uma pasta
   
-  * cd ..
+  *  <b><i> cd ..  </i></b>
   --> Comando para sair daquela pasta e ir para a anterior dela
     
 </section>
