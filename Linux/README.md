@@ -99,3 +99,9 @@
   
    <img src="src/criandoPastasTree.png" width="500" title="hover text">
     
+  Iremos instalar a aplicação e ver a diferença
+  
+  Instale a aplicação:
+  * <i> sudo apt-get install tree </i>
+  agora teste o comando : <i> tree casa </i>
+   <img src="src/treeCasa.png" width="500" title="hover text">
