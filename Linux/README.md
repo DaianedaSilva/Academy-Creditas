@@ -20,7 +20,6 @@
 </ul>
 
 
-
 <section> <h2 id="OqueE">O que é?</h2>
 
   É um sistema operacional gratuito, onde contém código aberto, ou seja, qualquer pessoa pode criar e distribuir aplicações. Existem inúmeras versões do sistem operacional como Ubuntu, debian, Linux Mint etc.
@@ -28,12 +27,12 @@
 
 </section>
  
- <section> <p id = "Windows">Usando Linux no Windows</p>
+<section> <h2 id = "Windows">Usando Linux no Windows</h2>
   Hoje é possivel rodar um simulador de terminal de Linux no windows sem precisar necessariamente instalar o Linux como segundo sistema operacional. 
   Veja o tutorial no site: https://www.ssl.com/pt/como/ativar-o-subsistema-linux-instalar-o-ubuntu-windows-10/
  </section>
 
-<section>  <p id = "Terminal"> Entendendo o Terminal </p>
+<section>  <h2 id = "Terminal"> Entendendo o Terminal </h2>
   Assim que abrimos o terminal nos deparamos com algo do tipo:
   
 
@@ -44,12 +43,12 @@
   
   O simbolo <b>~</b> significa que esta na pasta do usuário, já o simbolo <b>$</b> significa que é um usuário limitado, ou seja não consegue fazer tudo que o administrador faz
  </section>
- <hr>
+
+ 
  <section>
- <p id = "Comandos">Comandos Linux</p>
+ <h2 id = "Comandos">Comandos Linux</h2>
   
   Irei listar os principais comandos utilizados no terminal do linux, e logo após uma breve explicação.
-  
   
   * pwd  --> Mostra em qual pasta você está, se mostrar apenas uma barra ( / ), quer dizer que está na raiz do terminal.
    
