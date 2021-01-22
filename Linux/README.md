@@ -57,8 +57,14 @@
   --> Vai listar todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc.
   
   *  <b><i> clear  </i></b>
-  --> Limpa todos os comandos do terminal
+  --> Limpa todos os comandos do terminal, Ctrl + L tem a mesma função
    
+   *  <b><i> exit  </i></b>
+    --> Finaliza o terminal
+  
+  *  <b><i> cp  </i></b>
+  --> Copia o arquivo para outro local, igual o Ctrl+ C
+  
   *  <b><i> su root  </i></b>
   --> Entrar como administrador, vai solicitar do administrador.
   
@@ -70,6 +76,9 @@
   *  <b><i> rmdir </i></b>  <i>NOME DA PASTA</i>
   --> Comando para apagar uma pasta. Se deseja apagar uma pasta que está dentro de outra, deve-se ir atéo diretório que a pasta se encontra.
   
+  *  <b><i> rm </i></b>  <i>NOME DO ARQUIVO</i>
+  --> Comando para apagar um arquivo. 
+  
   *  <b><i> cd  </i></b> <i>NOME DA PASTA</i>
   --> Comando para abrir uma pasta
   
@@ -77,3 +86,16 @@
   --> Comando para sair daquela pasta e ir para a anterior dela
     
 </section>
+
+ <h2 id = "Aplicacoes">Aplicações - Tree </h2>
+ Existem algumas aplicações que podemos instalar no terminal para facilitar.
+ 
+ O Trre, é uma aplicação para melhor a visualização da ordem dos diretórios
+ 
+  Para demostração, crie a pasta <i>casa</i>, dentro dela as pastas <i> cozinha, quarto1, quarto2, sala </i> e dentro de sala crie a pasta <i> TV </i>
+  PS: para criar várias pastas é so colocar mkdir <i>pasta1 pasta2<i>, separados por um espaço
+  
+  Saia de dentro de todas as pastas e de o caman do <i>ls</i> para ver as pastas, repare que ela só irá mostrar a pasta casa, mas não mostra as dentro dela.
+  
+    <img src="src/criandoPastasTree.png" width="500" title="hover text">
+    
