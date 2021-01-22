@@ -14,9 +14,7 @@
      <li>
   <a href ="#Comandos"> Comandos Linux </a>
   </li>
-     <li>
-  <a href ="#Terminal"> Entendendo o Terminal </a>
-  </li>
+  
 </ul>
 
 
