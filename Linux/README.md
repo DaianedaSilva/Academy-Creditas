@@ -64,6 +64,15 @@
    
    *  <b><i> exit  </i></b>
     --> Finaliza o terminal
+    
+   *  <b><i> history  </i></b>
+   --> Ver todos os comandos executados
+    
+   *  <b><i>  su root  </i></b>
+   --> Comando para trocar de usuário   
+
+  *  <b><i>  su passwd root  </i></b>
+   --> Comando para trocar senha do usuário   
   
   *  <b><i> cp  </i></b>
   --> Copia o arquivo para outro local, igual o Ctrl+ C
@@ -82,11 +91,31 @@
   *  <b><i> rm </i></b>  <i>NOME DO ARQUIVO</i>
   --> Comando para apagar um arquivo. 
   
+  *  <b><i> rm -r </i></b>  <i>NOME DA PASTA </i></b>
+  --> Comando apagar uma pasta com vairas coisas dentro
+  
   *  <b><i> cd  </i></b> <i>NOME DA PASTA</i>
   --> Comando para abrir uma pasta
   
   *  <b><i> cd ..  </i></b>
   --> Comando para sair daquela pasta e ir para a anterior dela
+  
+  *  <b><i> nano NOMEdoArquivo  </i></b>
+  --> Criar um novo arquivo, irá abrir um terminal para digitar o texto do arquivo
+      * Crtl + X --> sai da edição
+      * Para editar novamente é o mesmo comando
+      
+ *  <b><i> cat NomedoArquivo  </i></b>
+  --> Mostra no terminal o texto do arquivo
+  
+  *  <b><i> mv NOMEdoARQUIVO LOCALdoARQUIVO  </i></b>
+  --> Mover arquivo para outro diretório
+  
+  *  <b><i> mv NOMEdoARQUIVO MESMOdiretório NovoNomedeArquivo  </i></b>
+  --> Mover arquivo para outro diretório
+  
+  
+  
     
 </section>
 
