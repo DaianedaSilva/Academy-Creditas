@@ -97,5 +97,5 @@
   
   Saia de dentro de todas as pastas e de o caman do <i>ls</i> para ver as pastas, repare que ela só irá mostrar a pasta casa, mas não mostra as dentro dela.
   
-    <img src="src/criandoPastasTree.png" width="500" title="hover text">
+   <img src="src/criandoPastasTree.png" width="500" title="hover text">
     
