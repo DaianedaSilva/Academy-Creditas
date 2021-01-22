@@ -53,7 +53,8 @@
    
   * ls
   --> Mostra quais arquivos e pastas estão no diretório
-  
+  * ls -al 
+  --> Vai listar todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc.
   * clear
   --> Limpa todos os comandos do terminal
    
