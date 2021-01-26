@@ -12,7 +12,7 @@
      <a href="#PrincTags">- Principais tags</a>
 </dt>
 	  <dd>
-		 <a href="#doctype">- <!doctype html></a>
+		 <a href="#doctype">- < !doctype html ></a>
 	</dd>
 
 </dl>
@@ -49,4 +49,4 @@ Existem as chamas ***TAGS ESPECIAIS***, chamadas ABERTAS OU VAZIAS, que não pos
  
 A baixo temos as principais tags que utilizamos na web.
 
-<h2 id="doctype"> <!doctype html> </h2>
+<h2 id="doctype"> < !doctype html > </h2>
