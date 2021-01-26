@@ -18,7 +18,10 @@
                <a href="#htmlTag">- <  html ></a>
           </dd>
           <dd>
-               <a href="#headTag">- <  head ></a>
+               <a href="#headTag">- < head ></a>
+          </dd>
+          <dd>
+               <a href="#bodyTag">- < body ></a>
           </dd>
 
 </dl>
@@ -113,8 +116,15 @@ As principais tags que se usa dentro da tag head são:
 
 </table> 
 
- 
+<h2 id="bodyTag"> <  body >  </h2>
+É a tag responsável por definir o corpo do HTML, dentro dele vamos ter todas as outras tags, ou seja, todo o conteúdo do HTML.
 
+***É UMA TAG OBRIGATÓRIA***
+
+
+**SIXTÁXE:**
+
+	< body > Conteúdo </ body > 
 
 
 
