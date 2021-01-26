@@ -113,15 +113,14 @@
   *  <b><i> cd ..  </i></b>
   --> Comando para sair daquela pasta e ir para a anterior dela
   
-  
-  
   <h3 id="TextoTerminal"> Criando Arquivos de Texto pelo Terminal </h3>
   
   * <b><i> nano NOMEdoArquivo  </i></b>
   --> Criar um novo arquivo de texto, irá abrir um terminal para digitar o texto do arquivo
 <img src="src/TextoTerminal.png" width="500" title="Pastas com Mesmo Nome">
-      * Crtl + X --> sai da edição, aperte Y para salvar ou N para não salvar as modificações feitas.E  logo em seguida confirme o nome, se estiver correto dê ENTER
-      * Para editar novamente é o mesmo comando, irá abrir o arquivo já existente
+     
+    * Crtl + X --> sai da edição, aperte Y para salvar ou N para não salvar as modificações feitas.E  logo em seguida confirme o nome, se estiver correto dê ENTER
+    * Para editar novamente é o mesmo comando, irá abrir o arquivo já existente
       
   *  <b><i> cat NomedoArquivo  </i></b>
   --> Mostra no terminal o texto do arquivo
