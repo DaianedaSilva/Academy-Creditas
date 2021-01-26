@@ -31,7 +31,7 @@
           </dd>
    
    <dt>
-     <a href="#FormatTags">-  Formatando Texto</a>
+     <a href="#formatTag">-  Formatando Texto</a>
 </dt>
 
 </dl>
@@ -159,4 +159,4 @@ Se você criar um texto sem tag ele também aparecerá no navegador, porém sem 
 
 	< p > Este é um parágrafo. < /p > 
 
-<h2 id="FormatTag"> Formatando Texto </h2>
+<h2 id="formatTag"> Formatando Texto </h2>
