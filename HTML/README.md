@@ -49,4 +49,14 @@ Existem as chamas ***TAGS ESPECIAIS***, chamadas ABERTAS OU VAZIAS, que não pos
  
 A baixo temos as principais tags que utilizamos na web.
 
-<h2 id="doctype"> < !doctype html > </h2>
+<h2 id="doctype"> <!doctype html> </h2>
+É a tag responsável por declarar ao navegador que o arquivo é um arquivo HTML.
+
+***É a primeira tag que deve aparecer.***
+
+** SIXTÁXE: **
+
+		<!doctype html> 
+
+
+ 
