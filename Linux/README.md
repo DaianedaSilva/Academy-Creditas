@@ -15,6 +15,9 @@
     <a href ="#Terminal"> Entendendo o Terminal </a>
   </dt>
   <dt>
+    <a href ="#Aplicacoes"> Aplicações - Tree </a>
+  </dt>
+  <dt>
     <a href ="#Comandos"> Comandos Linux </a>
   </dt>
       <dd>
@@ -27,9 +30,7 @@
       <dd>
         <a href ="#Movimentando">Movimento e Renomeando Arquivos e Pastas</a>
       </dd>
-   <dt>
-  <a href ="#Aplicacoes"> Aplicações - Tree </a>
-  </dt>
+ 
   
 </dl>
 
@@ -69,6 +70,28 @@
   O simbolo <b>~</b> significa que esta na pasta do usuário, já o simbolo <b>$</b> significa que é um usuário limitado, ou seja não consegue fazer tudo que o administrador faz
  </section>
 
+
+<section>
+   <h2 id = "Aplicacoes">Aplicações - Tree </h2>
+ Existem algumas aplicações que podemos instalar no terminal para facilitar.
+ 
+ O Trre, é uma aplicação para melhor a visualização da ordem dos diretórios
+ 
+  Para demostração, crie a pasta <i>casa</i>, dentro dela as pastas <i> cozinha, quarto1, quarto2, sala </i> e dentro de sala crie a pasta <i> TV </i>
+  PS: para criar várias pastas é so colocar mkdir <i>pasta1 pasta2<i>, separados por um espaço
+  
+  Saia de dentro de todas as pastas e de o caman do <i>ls</i> para ver as pastas, repare que ela só irá mostrar a pasta casa, mas não mostra as dentro dela.
+  
+   <img src="src/criandoPastasTree.png" width="500" title="hover text">
+    
+  Iremos instalar a aplicação e ver a diferença
+  
+  Instale a aplicação:
+  * <i> sudo apt-get install tree </i>
+  agora teste o comando : <i> tree casa </i>
+   <img src="src/treeCasa.png" width="500" title="hover text">
+
+</section>
  
  <section>
  <h2 id = "Comandos">Comandos Linux</h2>
@@ -170,21 +193,4 @@
     
 </section>
 
- <h2 id = "Aplicacoes">Aplicações - Tree </h2>
- Existem algumas aplicações que podemos instalar no terminal para facilitar.
- 
- O Trre, é uma aplicação para melhor a visualização da ordem dos diretórios
- 
-  Para demostração, crie a pasta <i>casa</i>, dentro dela as pastas <i> cozinha, quarto1, quarto2, sala </i> e dentro de sala crie a pasta <i> TV </i>
-  PS: para criar várias pastas é so colocar mkdir <i>pasta1 pasta2<i>, separados por um espaço
-  
-  Saia de dentro de todas as pastas e de o caman do <i>ls</i> para ver as pastas, repare que ela só irá mostrar a pasta casa, mas não mostra as dentro dela.
-  
-   <img src="src/criandoPastasTree.png" width="500" title="hover text">
-    
-  Iremos instalar a aplicação e ver a diferença
-  
-  Instale a aplicação:
-  * <i> sudo apt-get install tree </i>
-  agora teste o comando : <i> tree casa </i>
-   <img src="src/treeCasa.png" width="500" title="hover text">
+
