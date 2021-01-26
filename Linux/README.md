@@ -39,7 +39,7 @@
      
    Dentro da pasta <i> rootfs </i> você irá encontrar todas os diretórios do Linux, incluse a pasta <i> home </i> o qual tem a pasta do usuário dentro.
 
-<img src="src/pastaHomeLinux.png" width="500" title="hover text">
+<img src="src/pastaHomenoLinux.png" width="500" title="hover text">
 
 
 </section>
