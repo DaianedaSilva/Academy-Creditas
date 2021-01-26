@@ -8,6 +8,12 @@
 <dt>
      <a href="#TAG">- O que são TAGS?</a>
 </dt>
+<dt>
+     <a href="#PrincTags">- Principais tags</a>
+</dt>
+	  <dd>
+		 <a href="#doctype">- <!doctype html></a>
+	</dd>
 
 </dl>
 
@@ -39,5 +45,8 @@ Existem as chamas ***TAGS ESPECIAIS***, chamadas ABERTAS OU VAZIAS, que não pos
 
 	< TagName > CONTEÚDO  <\TagName> 
 
+ <h1 id="PrincTags"> Principais Tags</h1>
+ 
+A baixo temos as principais tags que utilizamos na web.
 
-
+<h2 id="doctype"> <!doctype html> </h2>
