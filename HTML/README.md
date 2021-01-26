@@ -22,7 +22,16 @@ Geralmente se apresentam em pares, como < body > e < /body >, sendo que:
 
 Existem as chamas ***TAGS ESPECIAIS***, chamadas ABERTAS OU VAZIAS, que não possuem fechamento, (ex:  < br>, < a>) 
 
+***OBESERVAÇÕES:***
+   < P >  e < p > são a mesma coisa, HTML não diferencia maiúsculo de minúsculo .
+   
+ Sujestão: USAR SEMPRE MINÚSCULO 
+ 
+** SIXTÁXE: **
 
+	< TagName > CONTEÚDO  <\TagName> 
+
+ 
 
 
 
