@@ -20,6 +20,9 @@
           <dd>
                <a href="#headTag">- < head ></a>
           </dd>
+		  <dd>
+               <a href="#charsetTag">- < meta charset = "utf-8" >  </a>
+          </dd>
           <dd>
                <a href="#bodyTag">- < body ></a>
           </dd>
@@ -115,6 +118,18 @@ As principais tags que se usa dentro da tag head são:
 </tr>
 
 </table> 
+
+<h2 id="charsettag"> < meta charset = "utf-8">   </h2>
+Uma tag que fica dentro do <i>< meta ></i> muito importante.
+
+O navegador sempre tentará decodificar o que foi escrito no padrão americano ANSI, que não contém caracteres como o ç, para que ele possa entender usamos o padrão latino UTF-8, e declaramos isto através desta tag.
+
+**SIXTÁXE:**
+
+	< head >
+        <meta charset = "utf-8"> 
+	</ head >
+
 
 <h2 id="bodyTag"> <  body >  </h2>
 É a tag responsável por definir o corpo do HTML, dentro dele vamos ter todas as outras tags, ou seja, todo o conteúdo do HTML.
