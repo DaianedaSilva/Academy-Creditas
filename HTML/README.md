@@ -11,9 +11,12 @@
 <dt>
      <a href="#PrincTags">- Principais tags</a>
 </dt>
-	  <dd>
-		 <a href="#doctype">- < !doctype html ></a>
-	</dd>
+        <dd> 
+             <a href="#doctype">- < !doctype html ></a>
+         </dd>
+         <dd>
+               <a href="#htmlTag">- <  html ></a>
+          </dd>
 
 </dl>
 
@@ -52,11 +55,18 @@ A baixo temos as principais tags que utilizamos na web.
 <h2 id="doctype"> < !doctype html > </h2>
 É a tag responsável por declarar ao navegador que o arquivo é um arquivo HTML.
 
+
 ***É a primeira tag que deve aparecer.***
 
 **SIXTÁXE:**
 
 		< !doctype html > 
 
+<h2 id="htmlTag"> <  html > </h2>
+É a tag onde todo o documento HTML é formulado, todo conteudo da página deve ficar dentro dele.
 
- 
+Tem tag de abertura e de fechamento.
+
+**SIXTÁXE:**
+
+	< html > Conteúdo </ html > 
