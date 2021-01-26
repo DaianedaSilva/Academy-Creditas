@@ -16,11 +16,10 @@
          </dd>
          <dd>
                <a href="#htmlTag">- <  html ></a>
-          </dd>
-
-         <dd>
+         </dd>
+	 <dd>
                <a href="#headTag">- <  head ></a>
-          </dd>
+         </dd>
 
 </dl>
 
@@ -97,8 +96,9 @@ As principais tags que se usa dentro da tag head são:
   <td> define informações de estilo de um documento HTML  </td >
 </tr> 
 <tr>
-<th>< meta >Conteúdo </ meta> </th>
-      <td> essa tag contém elementos que são usados para especificar o comportamento e a descrição da página,  as palavras-chaves, o autor do documento, a última modificação, entre outros METADADOS. Podem ser utilizados pelos navegadores (como exibir conteúdo ou pagina recuperada), pelos motores de busca (palavras-chaves) </td>
+<th>< meta >Conteúdo < / meta> </th>
+      <td> essa tag contém elementos que são usados para especificar o comportamento e a descrição da página,  as palavras-chaves, o autor do documento, a última modificação, entre outros METADADOS. Podem ser utilizados pelos navegadores (como exibir conteúdo ou pagina recuperada), pelos motores de busca (palavras-chaves) 
+	</td>
 </tr>
 </table> 
 
