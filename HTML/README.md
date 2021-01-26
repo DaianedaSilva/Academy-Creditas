@@ -16,10 +16,11 @@
          </dd>
          <dd>
                <a href="#htmlTag">- <  html ></a>
-         </dd>
-	 <dd>
+          </dd>
+
+         <dd>
                <a href="#headTag">- <  head ></a>
-         </dd>
+          </dd>
 
 </dl>
 
@@ -70,9 +71,11 @@ A baixo temos as principais tags que utilizamos na web.
 
 Tem tag de abertura e de fechamento.
 
+Apresenta junto a lingua em que o arquivo foi escrito.
+
 **SIXTÁXE:**
 
-	< html > Conteúdo </ html > 
+	< html lang="pt-br"> Conteúdo </ html > 
 
 <h2 id="headTag"> <  head >  </h2>
 
@@ -96,10 +99,19 @@ As principais tags que se usa dentro da tag head são:
   <td> define informações de estilo de um documento HTML  </td >
 </tr> 
 <tr>
-<th>< meta >Conteúdo < / meta> </th>
-      <td> essa tag contém elementos que são usados para especificar o comportamento e a descrição da página,  as palavras-chaves, o autor do documento, a última modificação, entre outros METADADOS. Podem ser utilizados pelos navegadores (como exibir conteúdo ou pagina recuperada), pelos motores de busca (palavras-chaves) 
-	</td>
+<th>< meta >Conteúdo </ meta> </th>
+      <td> essa tag contém elementos que são usados para especificar o comportamento e a descrição da página,  as palavras-chaves, o autor do documento, a última modificação, entre outros METADADOS. Podem ser utilizados pelos navegadores (como exibir conteúdo ou pagina recuperada), pelos motores de busca (palavras-chaves) </td>
 </tr>
+<tr>
+	<th> < link ></th>
+	<td> É mais usado para buscar as orientações de estilo de páginas  em outros arquivos  </td>
+</tr>
+
+<tr>
+	<th> < script >< /script ></th>
+<td>É usado para definir um script do lado do cliente, como um JavaScript. Os usos comuns para Java Script são manipulação de imagem, validação de formulários e mudanças dinâmicas do conteúdo </td>
+</tr>
+
 </table> 
 
  
