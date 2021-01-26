@@ -1,24 +1,37 @@
 # Linux
 
 <h1> Conteúdo </h1>
-<ul>
-  <li>
-  <a href ="#OqueE"> O que é ? 🐧 </a>
-  </li>
-    <li>
-  <a href ="#Windows"> Usando Linux no Windows </a>
-  </li>
-   <li>
-  <a href ="#Terminal"> Entendendo o Terminal </a>
-  </li>
-     <li>
-  <a href ="#Comandos"> Comandos Linux </a>
-  </li>
-   <li>
+<dl>
+  <dt>
+    <a href ="#OqueE"> O que é ? 🐧 </a>
+  </dt>
+  <dt>
+    <a href ="#Windows"> Usando Linux no Windows </a>
+  </dt>
+      <dd>
+        <a href ="#Home"> Localizando Pasta Home no Windows </a>
+      </dd>
+  <dt>
+    <a href ="#Terminal"> Entendendo o Terminal </a>
+  </dt>
+  <dt>
+    <a href ="#Comandos"> Comandos Linux </a>
+  </dt>
+      <dd>
+        <a href ="#Pastas">Mexendo com Pastas </a>
+      </dd>
+      <dd>
+        <a href ="#TextoTerminal">Criando Arquivos de Texto pelo Terminal
+        </a>
+      </dd>
+      <dd>
+        <a href ="#Movimentando">Movimento e Renomeando Arquivos e Pastas</a>
+      </dd>
+   <dt>
   <a href ="#Aplicacoes"> Aplicações - Tree </a>
-  </li>
+  </dt>
   
-</ul>
+</dl>
 
 
 <section> <h2 id="OqueE">O que é?</h2>
