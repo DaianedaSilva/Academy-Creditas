@@ -122,7 +122,7 @@
 <img src="src/TextoTerminal.png" width="500" title="Pastas com Mesmo Nome">
    
    * Crtl + X --> sai da edição, aperte Y para salvar ou N para não salvar as modificações feitas.E  logo em seguida confirme o nome, se estiver correto dê ENTER
-   * Para editar novamente é o mesmo comando, irá abrir o arquivo já existente
+    * Para editar novamente é o mesmo comando, irá abrir o arquivo já existente
       
  *  <b><i> cat NomedoArquivo  </i></b>
   --> Mostra no terminal o texto do arquivo
