@@ -51,9 +51,6 @@
   <img src="src/terminalInicial.png" width="500" title="hover text">
 
 
-
-
-
   O nome antes do @ na imagem significa o nome do usuário da máquina, já o nome após o @ é o nome da própria maquina. Neste caso o usuário é <i>daiane</i> e o nome da máquina é <i>CRED-DH4Rf73</i>
   
   O simbolo <b>~</b> significa que esta na pasta do usuário, já o simbolo <b>$</b> significa que é um usuário limitado, ou seja não consegue fazer tudo que o administrador faz
@@ -94,6 +91,8 @@
   *  <b><i> su root  </i></b>
   --> Entrar como administrador, vai solicitar do administrador.
   
+   <h3 id="Pastas"> Mexendo com Pastas</h3>
+  
   *  <b><i> mkdir  </i></b> <i>NOME DA PASTA</i>
   --> Comando para criar pastas, so funcionará se tiver permissão de administrador
   O Linux permite que seja criado pastas com nomes iguais desde que tenham diferença de maiúsculo ou minúsculo, 
@@ -106,7 +105,7 @@
   --> Comando para apagar um arquivo. 
   
   *  <b><i> rm -r </i></b>  <i>NOME DA PASTA </i></b>
-  --> Comando apagar uma pasta com vairas coisas dentro
+  --> Comando apagar uma pasta com varias coisas dentro
   
   *  <b><i> cd  </i></b> <i>NOME DA PASTA</i>
   --> Comando para abrir uma pasta
@@ -114,21 +113,48 @@
   *  <b><i> cd ..  </i></b>
   --> Comando para sair daquela pasta e ir para a anterior dela
   
+  
+  
+  <h3 id="TextoTerminal"> Criando Arquivos de Texto pelo Terminal </h3>
   *  <b><i> nano NOMEdoArquivo  </i></b>
-  --> Criar um novo arquivo, irá abrir um terminal para digitar o texto do arquivo
-      * Crtl + X --> sai da edição
-      * Para editar novamente é o mesmo comando
+  --> Criar um novo arquivo de texto, irá abrir um terminal para digitar o texto do arquivo
+      
+   <img src="src/TextoTerminal.png" width="500" title="Pastas com Mesmo Nome">
+   
+   * Crtl + X --> sai da edição, aperte Y para salvar ou N para não salvar as modificações feitas.E  logo em seguida confirme o nome, se estiver correto dê ENTER
+   * Para editar novamente é o mesmo comando, irá abrir o arquivo já existente
       
  *  <b><i> cat NomedoArquivo  </i></b>
   --> Mostra no terminal o texto do arquivo
   
-  *  <b><i> mv NOMEdoARQUIVO LOCALdoARQUIVO  </i></b>
+  <img src="src/comandoCat.png" width="500" title="Pastas com Mesmo Nome">
+  
+  <br>
+  O arquivo neste caso foi criando dentro da pasta <i>home/daiane</i>, Não esqueça do comando pwd caso queira ver onde está.
+  
+  <img src="src/arquivoNoPC.png" width="500" title="Pastas com Mesmo Nome">
+  
+  
+   <h3 id="Movimentando"> Movimento e Renomeando Arquivos e Pastas </h3>
+  
+  *  <b><i> mv LocadoArquivo/NomedoArquivo LOCALdoARQUIVO  </i></b>
   --> Mover arquivo para outro diretório
+  <img src="src/movendoGeladeira.png" width="500" title="Pastas com Mesmo Nome">
+  
+  --> Se estiver dentro da pasta onde o arquivo está, coloque o nome do arquivo e vá até a nova pasta.
+   <img src="src/movendoGeladeira2.png" width="500" title="Pastas com Mesmo Nome">
+  
   
   *  <b><i> mv NOMEdoARQUIVO MESMOdiretório NovoNomedeArquivo  </i></b>
-  --> Mover arquivo para outro diretório
+  --> Renomear arquivo
   
+  *  <b><i> mv LOCALdaPasta NovoLocal  </i></b>
+  --> Mover uma pasta para outro lugar. Exemplo, modifiquei o diretório TV que estava dentro de sala, para o diretório quarto1
+  <img src="src/TVparaQuarto1.png" width="500" title="Pastas com Mesmo Nome">
   
+   *  <b><i> mv LOCALdaPasta LocaldaPastaComNovoNome  </i></b>
+  --> Para renomear a pasta mova para mesmo local porém modificando o nome, exemplo, mudando o nome do dirétório TV para cama, o qual se encontra no casa/quarto1
+   <img src="src/renomeandoPasta.png" width="500" title="Pastas com Mesmo Nome">
   
     
 </section>
