@@ -26,6 +26,13 @@
           <dd>
                <a href="#bodyTag">- < body ></a>
           </dd>
+	<dd>
+               <a href="#pTag">- < p></a>
+          </dd>
+   
+   <dt>
+     <a href="#FormatTags">-  Formatando Texto</a>
+</dt>
 
 </dl>
 
@@ -119,7 +126,7 @@ As principais tags que se usa dentro da tag head são:
 
 </table> 
 
-<h2 id="charsettag"> < meta charset = "utf-8">   </h2>
+<h2 id="charsetTag"> < meta charset = "utf-8">   </h2>
 Uma tag que fica dentro do <i>< head ></i> muito importante.
 
 O navegador sempre tentará decodificar o que foi escrito no padrão americano ANSI, que não contém caracteres como o ç, para que ele possa entender usamos o padrão latino UTF-8, e declaramos isto através desta tag.
@@ -141,6 +148,15 @@ O navegador sempre tentará decodificar o que foi escrito no padrão americano A
 
 	< body > Conteúdo </ body > 
 
+<h2 id="pTag"> < p >   </h2>
+Tag responsável para a criação de um parágrafo sintaticamente, ou seja, tudo que estiver dentro desta tag o navegador entende que é um texto. 
 
+Se você criar um texto sem tag ele também aparecerá no navegador, porém sem valor sintactico, o que está errado.
 
+		***Para quebrar linha entre os parágrafos pode ser usado a tag < br >***
 
+**SIXTÁXE:**
+
+	< p > Este é um parágrafo. < /p > 
+
+<h2 id="FormatTag"> Formatando Texto </h2>
