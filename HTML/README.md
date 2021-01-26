@@ -153,7 +153,9 @@ Tag responsável para a criação de um parágrafo sintaticamente, ou seja, tudo
 
 Se você criar um texto sem tag ele também aparecerá no navegador, porém sem valor sintactico, o que está errado.
 
-		***Para quebrar linha entre os parágrafos pode ser usado a tag < br >***
+
+***Para quebrar linha entre os parágrafos pode ser usado a tag < br >***
+
 
 **SIXTÁXE:**
 
