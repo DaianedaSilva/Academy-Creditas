@@ -120,7 +120,7 @@ As principais tags que se usa dentro da tag head são:
 </table> 
 
 <h2 id="charsettag"> < meta charset = "utf-8">   </h2>
-Uma tag que fica dentro do <i>< meta ></i> muito importante.
+Uma tag que fica dentro do <i>< head ></i> muito importante.
 
 O navegador sempre tentará decodificar o que foi escrito no padrão americano ANSI, que não contém caracteres como o ç, para que ele possa entender usamos o padrão latino UTF-8, e declaramos isto através desta tag.
 
