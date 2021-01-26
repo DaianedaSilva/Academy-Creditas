@@ -90,7 +90,8 @@
   * <i> sudo apt-get install tree </i>
   
   Agora teste o comando : <i> tree casa </i>
-   <img src="src/treeCasa.png" width="500" title="hover text">
+  
+  <img src="src/treeCasa.png" width="500" title="hover text">
 
 </section>
  
