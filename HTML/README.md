@@ -17,8 +17,7 @@
          <dd>
                <a href="#htmlTag">- <  html ></a>
           </dd>
-
-         <dd>
+          <dd>
                <a href="#headTag">- <  head ></a>
           </dd>
 
