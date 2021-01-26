@@ -31,13 +31,27 @@
 <section> <h2 id = "Windows">Usando Linux no Windows</h2>
   Hoje é possivel rodar um simulador de terminal de Linux no windows sem precisar necessariamente instalar o Linux como segundo sistema operacional. 
   Veja o tutorial no site: https://www.ssl.com/pt/como/ativar-o-subsistema-linux-instalar-o-ubuntu-windows-10/
- </section>
+
+<h3 id = "Home">Localizando Pasta Home no Windows</h3>
+  Todos os arquivos/diretórios salvos, ou criados no Linux são criados em diretório no Linux. Para localiza-lós, siga o caminho:
+
+* C:\Users\<SEU USUÁRIO>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs
+     
+   Dentro da pasta <i> rootfs </i> você irá encontrar todas os diretórios do Linux, incluse a pasta <i> home </i> o qual tem a pasta do usuário dentro.
+
+<img src="src/pastaHomeLinux.png" width="500" title="hover text">
+
+
+</section>
 
 <section>  <h2 id = "Terminal"> Entendendo o Terminal </h2>
   Assim que abrimos o terminal nos deparamos com algo do tipo:
   
 
   <img src="src/terminalInicial.png" width="500" title="hover text">
+
+
+
 
 
   O nome antes do @ na imagem significa o nome do usuário da máquina, já o nome após o @ é o nome da própria maquina. Neste caso o usuário é <i>daiane</i> e o nome da máquina é <i>CRED-DH4Rf73</i>
