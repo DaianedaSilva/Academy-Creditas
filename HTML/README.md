@@ -1,9 +1,16 @@
 # HTML
 
 ## Conteúdo
-<a href="#HTML">- O que é HTML?</a>
+<dl>
+<dt>
+     <a href="#HTML">- O que é HTML?</a>
+</dt>
+<dt>
+     <a href="#TAG">- O que são TAGS?</a>
+</dt>
 
-<a href="#TAG">- O que são TAGS?</a>
+</dl>
+
 
  <h1 id="HTML"> O QUE É HTML?</h1>
 Html é uma **linguagem de marcação de hipertexto.** É o componente mais importante para web, onde as págians web utiliza dele para organizar as informações na página.
@@ -26,12 +33,11 @@ Existem as chamas ***TAGS ESPECIAIS***, chamadas ABERTAS OU VAZIAS, que não pos
    < P >  e < p > são a mesma coisa, HTML não diferencia maiúsculo de minúsculo .
    
  Sujestão: USAR SEMPRE MINÚSCULO 
- 
+
+
 ** SIXTÁXE: **
 
 	< TagName > CONTEÚDO  <\TagName> 
-
- 
 
 
 
