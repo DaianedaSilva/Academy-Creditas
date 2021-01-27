@@ -185,16 +185,16 @@ Se você criar um texto sem tag ele também aparecerá no navegador, porém sem 
 	< p > Este é um parágrafo. < /p > 
 
 <h2 id="aTag"> < a >   </h2>
-Tag utilizada para criação de links.  Utilizamos o atributo <i>href</i>, onde colocamos para qual id queremos ir ou link externo. 
+Tag de âncora utilizada para criação de links.  Utilizamos o atributo <i>href</i>, onde colocamos para qual id queremos ir ou link externo. 
 
-
+Outro atributo que pode ser usado também junto com a tag  <i>a</i> é o <i> target="_blank"</i>. Ele é responsável por quando a pessoa clicar na âncora a nova página aparece em uma nova gia.
 
 Para ir ao um id da página utilizamos o # antes, ele irá procurar em qual tag tem o id informado e a tela irá até aquela posição da página.
 
 **SIXTÁXE:**
 
-	< a href = "https://www.creditas.com/"> Site Creditas </a>  
-	< a href = "#tagP"> Ir para o tag com o id "tagP" </a> 
-
+	< a href = "https://www.creditas.com/"> Site Creditas Abrindo em Cima do Site</a>  
+		< a href = "https://www.creditas.com/" target="_blank" > Site Creditas Abrindo em Outra Guia </a>  
+	< a href = "#tagP"> Ir para o tag com o id="tagP" </a> 
 
 <h2 id="formatTag"> Formatando Texto </h2>
