@@ -220,6 +220,7 @@ Tag responsável por quebrar linhhas.
 Abaixo serão listados as principais tags utilizadas para estilizar textos, onde na maioria das vezes é usada dentro da tag de parágrafo <i>< p > </i> .
 
 * < b >    NEGRITO </ b > 
+
 <b>    NEGRITO </b> 
 
 * < strong > TEXTO EM NEGRITO DADO COM IMPORTANTE </ strong > 
