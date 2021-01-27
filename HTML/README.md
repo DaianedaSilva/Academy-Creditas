@@ -197,4 +197,23 @@ Para ir ao um id da página utilizamos o # antes, ele irá procurar em qual tag 
 		< a href = "https://www.creditas.com/" target="_blank" > Site Creditas Abrindo em Outra Guia </a>  
 	< a href = "#tagP"> Ir para o tag com o id="tagP" </a> 
 
+
+<h2 id="hrTag"> < hr >   </h2>
+A tag <i>hr</i> é uma tag sem fechamento responsável por divisão de temas, visualmente. Ela cria uma linha horizontal a página
+
+**SIXTÁXE:**
+
+	< p > TEXTO 1 < / p>
+	 < hr >
+	< p > TEXTO 2< / p>
+
+<h2 id="brTag"> < br >   </h2>
+Tag responsável por quebrar linhhas.
+
+**SIXTÁXE:**
+
+	< p > TEXTO 1
+	 < br>
+	 TEXTO 2< / p>
+
 <h2 id="formatTag"> Formatando Texto </h2>
