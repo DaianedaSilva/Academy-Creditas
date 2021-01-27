@@ -13,27 +13,50 @@
 </dt>
         <dd> 
              <a href="#doctype">- < !doctype html ></a>
-         </dd>
-         <dd>
-               <a href="#htmlTag">- <  html ></a>
-          </dd>
-          <dd>
-               <a href="#headTag">- < head ></a>
-          </dd>
-		  <dd>
-               <a href="#charsetTag">- < meta charset = "utf-8" >  </a>
-          </dd>
-          <dd>
-               <a href="#bodyTag">- < body ></a>
-          </dd>
+        </dd>
+        <dd>
+             <a href="#htmlTag">- <  html ></a>
+        </dd>
+        <dd>
+             <a href="#headTag">- < head ></a>
+        </dd>
+        <dd>
+             <a href="#charsetTag">- < meta charset = "utf-8" >  </a>
+        </dd>
+        <dd>
+             <a href="#bodyTag">- < body ></a>
+        </dd>
 	<dd>
-               <a href="#pTag">- < p></a>
-          </dd>
+             <a href="#pTag">- < p ></a>
+        </dd>
+        <dd>
+             <a href="#aTag">- < a ></a>
+        </dd>
+	<dd>
+             <a href="#hrTag">- < hr ></a>
+        </dd>
+	<dd>
+             <a href="#brTag">- < br ></a>
+        </dd>
+   <dt>
+     <a href="#formatTag">- Formatando Texto</a>
+   </dt>
    
    <dt>
-     <a href="#formatTag">-  Formatando Texto</a>
-</dt>
-
+     <a href="#cabecalhosTag">- Cabeçalhos</a>
+   </dt>
+   
+   <dt>
+     <a href="#listasTag">- Listas</a>
+   </dt>
+   
+   <dt>
+     <a href="#tabelasTag">- Tabelas</a>
+   </dt>
+   
+   <dt>
+     <a href="#FormulariosTag">- Formulários</a>
+   </dt>
 </dl>
 
 
@@ -160,5 +183,18 @@ Se você criar um texto sem tag ele também aparecerá no navegador, porém sem 
 **SIXTÁXE:**
 
 	< p > Este é um parágrafo. < /p > 
+
+<h2 id="aTag"> < a >   </h2>
+Tag utilizada para criação de links.  Utilizamos o atributo <i>href</i>, onde colocamos para qual id queremos ir ou link externo. 
+
+
+
+Para ir ao um id da página utilizamos o # antes, ele irá procurar em qual tag tem o id informado e a tela irá até aquela posição da página.
+
+**SIXTÁXE:**
+
+	< a href = "https://www.creditas.com/"> Site Creditas </a>  
+	< a href = "#tagP"> Ir para o tag com o id "tagP" </a> 
+
 
 <h2 id="formatTag"> Formatando Texto </h2>
