@@ -217,3 +217,12 @@ Tag responsável por quebrar linhhas.
 	 TEXTO 2< / p>
 
 <h2 id="formatTag"> Formatando Texto </h2>
+Abaixo serão listados as principais tags utilizadas para estilizar textos, onde na maioria das vezes é usada dentro da tag de parágrafo <i>< p > </i> .
+
+* < b >    NEGRITO </ b > 
+<b>    NEGRITO </b> 
+
+* < strong > TEXTO EM NEGRITO DADO COM IMPORTANTE </ strong > 
+* < em > TEXTO USANDO EMPHISIZED </ em > 
+* < i > TEXTO EM ITÁLICO  </ i > 
+*< small > texto com a letra pequena  </ small > 
