@@ -216,25 +216,24 @@ Tag responsável por quebrar linhhas.
 	 < br>
 	 TEXTO 2< / p>
 
+<h2 id="comentTag"><! Comentários > </h2>
+As tags de comenatários são usadas para inserir informações e orientações do documento escrito, para quanto visto dps saber o que se tem ali. 
+
+<i>PS: COMENTÁRIOS NÃO SÃO EXIBIDOS PELO NAVEGADOR, É APENAS PARA O DEV</i> 
+
+**SIXTÁXE:**
+
+	< p > TEXTO 1< / p> < ! texto discritivo >
+
 <h2 id="formatTag"> Formatando Texto </h2>
 Abaixo serão listados as principais tags utilizadas para estilizar textos, onde na maioria das vezes é usada dentro da tag de parágrafo <i>< p > </i> .
 
 * < b >    NEGRITO </ b > 
 
-	<b>    NEGRITO </b> 
+	<b>NEGRITO</b> 
 
 * < strong > TEXTO EM NEGRITO DADO COM IMPORTANTE </ strong > 
 
-	<strong> TEXTO EM NEGRITO DADO COM IMPORTANTE </strong> 
-	
 * < em > TEXTO USANDO EMPHISIZED </ em > 
-	
-	<em> TEXTO USANDO EMPHISIZED </em> 
-	
 * < i > TEXTO EM ITÁLICO  </ i > 
-
-	<i> TEXTO EM ITÁLICO  </i> 
-
 *< small > texto com a letra pequena  </ small > 
-	
-   <small> texto com a letra pequena  </small> 
