@@ -323,5 +323,22 @@ Podemos ter várias < ul > dentro de outras < ul >:
  </ul> 
 <li> item 3 </li> 
  </ul> 
+ 
+ 
 <h3 id="lno" >Lista Não Ordenada  -ol</h3>
+A lista ordenada apresenta seus itens numerados. 
+
+Cada < li >< / li > dentro do < ol > < / ol >, corresponde a 1 marcador, ou seja, um item, que será exibido em cada linha da lista.
+
+Dentro de uma < ol > pode-se usar infinitas  < li >
+
+
+Podemos mudar o número que a lista inicia, com: 
+
+	* < ol Start = " numero que deseja "> 
+
+Cuidado, pois se ficar uma nova lista dentro desta ela n seguirar a numeração, começará do 1 novamente .
+
+**SIXTÁXE:**
+
 <h3 id="ld" >Lista de Definição - dl </h3>
