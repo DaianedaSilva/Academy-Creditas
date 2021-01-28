@@ -236,4 +236,5 @@ Abaixo serão listados as principais tags utilizadas para estilizar textos, onde
 	<i> TEXTO EM ITÁLICO  </i> 
 
 *< small > texto com a letra pequena  </ small > 
-	<small> texto com a letra pequena  </small> 
+	
+   <small> texto com a letra pequena  </small> 
