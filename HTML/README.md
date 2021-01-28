@@ -332,6 +332,21 @@ Cada < li >< / li > dentro do < ol > < / ol >, corresponde a 1 marcador, ou seja
 
 Dentro de uma < ol > pode-se usar infinitas  < li >
 
+**SIXTÁXE:**
+
+		<ol> 
+		<li> Item 1 </li> 
+		<li> Item2 </li> 
+		<li> Item 3 </li> 
+		</ol> 
+
+<ol> 
+<li> Item 1 </li> 
+<li> Item2 </li> 
+<li> Item 3 </li> 
+</ol> 
+
+
 
 Podemos mudar o número que a lista inicia, com: 
 
@@ -339,6 +354,6 @@ Podemos mudar o número que a lista inicia, com:
 
 Cuidado, pois se ficar uma nova lista dentro desta ela n seguirar a numeração, começará do 1 novamente .
 
-**SIXTÁXE:**
+
 
 <h3 id="ld" >Lista de Definição - dl </h3>
