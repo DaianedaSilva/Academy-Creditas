@@ -39,7 +39,7 @@
              <a href="#brTag">- < br ></a>
         </dd>
 		<dd>
-             <a href="#comentTag">- <! Comentário></a>
+             <a href="#comentTag">- < ! Comentário></a>
         </dd>
    <dt>
      <a href="#formatTag">- Formatando Texto</a>
@@ -231,7 +231,7 @@ As tags de comenatários são usadas para inserir informações e orientações 
 <h2 id="formatTag"> Formatando Texto </h2>
 Abaixo serão listados as principais tags utilizadas para estilizar textos, onde na maioria das vezes é usada dentro da tag de parágrafo <i>< p > </i> .
 
-* < b >    NEGRITO </ b > 
+* < b > NEGRITO </ b > 
 
 	<b>NEGRITO</b> 
 
