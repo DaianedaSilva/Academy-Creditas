@@ -39,7 +39,7 @@
              <a href="#brTag">- < br ></a>
         </dd>
 		<dd>
-             <a href="#comentTag">- < ! Comentário></a>
+             <a href="#comentTag">- < ! Comentário ></a>
         </dd>
    <dt>
      <a href="#formatTag">- Formatando Texto</a>
@@ -219,7 +219,7 @@ Tag responsável por quebrar linhhas.
 	 < br>
 	 TEXTO 2< / p>
 
-<h2 id="comentTag">< ! Comentários > </h2>
+<h2 id="comentTag"><! Comentários > </h2>
 As tags de comenatários são usadas para inserir informações e orientações do documento escrito, para quanto visto dps saber o que se tem ali. 
 
 <i>PS: COMENTÁRIOS NÃO SÃO EXIBIDOS PELO NAVEGADOR, É APENAS PARA O DEV</i> 
@@ -231,7 +231,7 @@ As tags de comenatários são usadas para inserir informações e orientações 
 <h2 id="formatTag"> Formatando Texto </h2>
 Abaixo serão listados as principais tags utilizadas para estilizar textos, onde na maioria das vezes é usada dentro da tag de parágrafo <i>< p > </i> .
 
-* < b > NEGRITO </ b > 
+* < b >    NEGRITO </ b > 
 
 	<b>NEGRITO</b> 
 
@@ -240,3 +240,18 @@ Abaixo serão listados as principais tags utilizadas para estilizar textos, onde
 * < em > TEXTO USANDO EMPHISIZED </ em > 
 * < i > TEXTO EM ITÁLICO  </ i > 
 *< small > texto com a letra pequena  </ small > 
+
+<h2 id="cabecalhosTag"> Cabeçalhos h1 - h6 </h2>
+A criação de cabeçalho permite hierarquizar os diferentes títulos de uma página, isso faz com que os mecanismos de busca consigam identificar quais são os títulos mais importantes da publicação , facilitando a lietura e a indexação do conteudo . Muito usado para títulos separando o conteúdo do site.
+
+<i><b>O HTML permite até  6 tipos de cabeçalhos, sendo o 1º  quando deseja definir maior nível de importância , e o último o menor nível </b></i>
+
+**SIXTÁXE:**
+
+	<h1> Cabeçalho 1 </h1> 
+	<h2> Cabeçalho 2 </h2> 
+	<h3> Cabeçalho 3 </h3> 
+	<h4> Cabeçalho 4 </h4> 
+	<h5> Cabeçalho 5 </h5> 
+	<h6> Cabeçalho 6 </h6> 
+
