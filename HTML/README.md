@@ -492,17 +492,40 @@ Podemos criar uma única lista usando as 3 juntas, uma dentro da outra .
 
 <dl>
 	<dt>Ingredientes</dt>
-	   <ul>
-		<li>2 ovos</li>
-		<li>Queijo</li>
-		<li>Sal</li>
-		<li>Tomare cortado</li>
-	</ul>
-	<dt>Preparos</dt>
-	<ol>
-		<li>Bata os 2 ovos</li>
-		<li>Coloque-os na frigideira já untada com óleo</li>
-		<li>Coloque o sal, o presunto e o queijo</li>
-		<li>Ao fim acreste o tomate.</li>
-	</ol>
+		
+		<ul>
+			<li>2 ovos</li>
+			<li>Queijo</li>
+			<li>Sal</li>
+			<li>Tomare cortado</li>
+		</ul>
+	<dt>Prepardos</dt>
+		
+		<ol>
+			<li>Bata os 2 ovos</li>
+			<li>Coloque-os na frigideira já untada com óleo</li>
+			<li>Coloque o sal, o presunto e o queijo</li>
+			<li>Ao fim acreste o tomate.</li>
+		</ol>
 </dl>
+
+<h3 id="formTag" >Formulários</h3>
+A tag responsável por criar formulários em HTML é o:
+		<form> Elememento de entrada <form>
+
+Um formulário HTML pode conter elementos de entrada, como campos de texto, caixas de seleção, botões de rádio etc.
+
+Ele é composto por outras tags, cada uma responsável por uma parte do formulário
+
+<h3> < label > </h3>
+A tag < label > é um elemento de entrada que define um rótulo para um elemento que será digitado 
+
+É o nome que identifica a entrada de dados: 
+
+**SINTÁXE:**
+
+		<label for = "nome do rótulo"> Descrição do rótulo </label> 
+		<label for="nome_dono">Nome:</label>  
+
+<label for = "nome do rótulo"> Descrição do rótulo </label> 
+		<label for="nome_dono">Nome:</label>  
