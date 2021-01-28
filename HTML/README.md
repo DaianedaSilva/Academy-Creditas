@@ -255,3 +255,62 @@ A criação de cabeçalho permite hierarquizar os diferentes títulos de uma pá
 	<h5> Cabeçalho 5 </h5> 
 	<h6> Cabeçalho 6 </h6> 
 
+<h2 id="listasTag"> Listas </h2>
+É uma sequência encadeada a qual contém mais de um elemento que você precisa exibir em sua página 
+
+No HTML existem 3 TIPOS DE LISTAS :
+<b>
+* <a href="#lo">Lista Ordenada - ul </a>
+* <a href="#lno">Lista Não Ordenada - ol </a>
+* <a href="#ld">Lista de Defnição - dl</a>
+</b>
+
+<h3 id="lo" >Lista Ordenada - ul</h3>
+Esta lista apresenta os itens com marcadores.
+
+Cada < li >< / li > dentro do < ul > < / ul >, corresponde a 1 marcador, ou seja, um item, que será exibido em cada linha da lista.
+
+Dentro de uma < ul > pode-se usar infinitas  < li >
+
+**SIXTÁXE:**
+	< ul >   
+	< li >  item  1 </ li >  
+	< li >  item 2  </ li > 
+	</ ul > 
+
+<ul>   
+<li>  item  1 </li>  
+<li>  item 2  </li> 
+</ul> 
+
+Podemos ter várias < ul > dentro de outras < ul >:
+	**SIXTÁXE:**
+		< ul >   
+		< li >  item  1 </ li >  
+		< li >  item 2  </ li > 
+		< ul >   
+		< li >  item  2.1 </ li >  
+		< li >  item 2 .2 </ li > 
+		< ul >   
+		< li >  item  2.2.1 </ li >  
+		< li >  item 2.2.2  </ li > 
+		 </ ul > 
+		 </ ul > 
+		< li > item 3 </ li > 
+		 </ ul > 
+
+<ul>   
+<li>  item  1 </li>  
+<li>  item 2  </li> 
+<ul>   
+<li>  item  2.1 </li>  
+<li>  item 2 .2 </li> 
+<ul>   
+<li>  item  2.2.1 </li>  
+<li>  item 2.2.2  </li> 
+ </ul> 
+ </ul> 
+<li> item 3 </li> 
+ </ul> 
+<h3 id="lno" >Lista Não Ordenada  -ol</h3>
+<h3 id="ld" >Lista de Definição - dl </h3>
