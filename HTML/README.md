@@ -556,5 +556,5 @@ dependendo do atributo, põe exemplo, pode ser :  campo de texto, caixa de verif
 
 <form>
 <label for=""> TEXTO </label>
-<input type="tipo" name ="nome" size="tamanho" maxkength="maximo de caracteres" placeholder="nome que fica de exemplo">
+<input type="tipo" name ="nome" size="tamanho" maxlength="maximo de caracteres" placeholder="nome que fica de exemplo">
 </form>
