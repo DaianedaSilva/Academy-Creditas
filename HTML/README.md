@@ -38,6 +38,9 @@
 	<dd>
              <a href="#brTag">- < br ></a>
         </dd>
+		<dd>
+             <a href="#comentTag">- <! Comentário></a>
+        </dd>
    <dt>
      <a href="#formatTag">- Formatando Texto</a>
    </dt>
