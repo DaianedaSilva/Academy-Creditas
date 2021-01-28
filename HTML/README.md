@@ -268,12 +268,12 @@ A criação de cabeçalho permite hierarquizar os diferentes títulos de uma pá
 
 No HTML existem 3 TIPOS DE LISTAS :
 <b>
-* <a href="#lo">Lista Ordenada - ul </a>
-* <a href="#lno">Lista Não Ordenada - ol </a>
+* <a href="#lno">Lista Não Ordenada - ul </a>
+* <a href="#lo">Lista Ordenada - ol </a>
 * <a href="#ld">Lista de Defnição - dl</a>
 </b>
 
-<h3 id="lo" >Lista Ordenada - ul</h3>
+<h3 id="lno" >Lista Não Ordenada -  ul</h3>
 Esta lista apresenta os itens com marcadores.
 
 Cada < li >< / li > dentro do < ul > < / ul >, corresponde a 1 marcador, ou seja, um item, que será exibido em cada linha da lista.
@@ -325,7 +325,7 @@ Podemos ter várias < ul > dentro de outras < ul >:
  </ul> 
  
  
-<h3 id="lno" >Lista Não Ordenada  -ol</h3>
+<h3 id="lo" >Lista Ordenada  -ol</h3>
 A lista ordenada apresenta seus itens numerados. 
 
 Cada < li >< / li > dentro do < ol > < / ol >, corresponde a 1 marcador, ou seja, um item, que será exibido em cada linha da lista.
@@ -392,6 +392,41 @@ Outras funcionalidade é reverter a numeração, usando de trás para frente:
 			<li> Item 4 </li> 
 			</ol>
 </ol> 
+
+Podemos mudar os números que aparecem por outra coisa, como algoritmos romanos, para isso usamos o atributo  TYPE 
+
+<table>
+<tr>
+	<th>Atributos</th>
+	<th>Tipos de Numeração </th>
+	<th>Saída </th>
+</tr>
+<tr>
+	<th>1</th>
+	<th>Número Arábicos</th>
+	<th>1,2,3...</th>
+</tr>
+<tr>
+	<th>a</th>
+	<th>Letras Minúsculas </th>
+	<th>a,b,c...</th>
+</tr>
+<tr>
+	<th>A</th>
+	<th>Letras Maiúsculas </th>
+	<th>A,B,C....</th>
+</tr>
+<tr>
+	<th>i</th>
+	<th>Números Romanos em Minúsculos</th>
+	<th>i, ii, iii,.... </th>
+</tr>
+<tr>
+	<th>I (i maiusculo) </th>
+	<th>Números Romanos em Maiúsculos </th>
+	<th>I, II, III, .... </th>
+</tr>
+</table>
 
 
 <h3 id="ld" >Lista de Definição - dl </h3>
