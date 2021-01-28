@@ -273,10 +273,11 @@ Cada < li >< / li > dentro do < ul > < / ul >, corresponde a 1 marcador, ou seja
 Dentro de uma < ul > pode-se usar infinitas  < li >
 
 **SIXTÁXE:**
-	< ul >   
-	< li >  item  1 </ li >  
-	< li >  item 2  </ li > 
-	</ ul > 
+
+		< ul >   
+		< li >  item  1 </ li >  
+		< li >  item 2  </ li > 
+		</ ul > 
 
 <ul>   
 <li>  item  1 </li>  
@@ -284,7 +285,8 @@ Dentro de uma < ul > pode-se usar infinitas  < li >
 </ul> 
 
 Podemos ter várias < ul > dentro de outras < ul >:
-	**SIXTÁXE:**
+
+**SIXTÁXE:**
 		< ul >   
 		< li >  item  1 </ li >  
 		< li >  item 2  </ li > 
