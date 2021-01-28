@@ -219,7 +219,7 @@ Tag responsável por quebrar linhhas.
 	 < br>
 	 TEXTO 2< / p>
 
-<h2 id="comentTag"><! Comentários > </h2>
+<h2 id="comentTag">< ! Comentários > </h2>
 As tags de comenatários são usadas para inserir informações e orientações do documento escrito, para quanto visto dps saber o que se tem ali. 
 
 <i>PS: COMENTÁRIOS NÃO SÃO EXIBIDOS PELO NAVEGADOR, É APENAS PARA O DEV</i> 
