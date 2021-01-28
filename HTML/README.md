@@ -453,15 +453,15 @@ Deve ser usada quando somente se deseja descrever um termo < dt > e suas descri�
 
 	<dl> 
 		<dt> Termo 1</dt> 
-		</dd> Descrição 1</dd> 
-		<dt> Termo 2</dt> 
+			</dd> Descrição 1</dd> 
+			<dt> Termo 2</dt> 
 		</dd> Descrição 2</dd> 
 	</dl> 
 
 <dl> 
 	<dt> Termo 1</dt> 
-	</dd> Descrição 1</dd> 
-	<dt> Termo 2</dt> 
+		</dd> Descrição 1</dd> 
+		<dt> Termo 2</dt> 
 	</dd> Descrição 2</dd> 
 </dl> 
 
