@@ -492,19 +492,17 @@ Podemos criar uma única lista usando as 3 juntas, uma dentro da outra .
 
 <dl>
 	<dt>Ingredientes</dt>
-		
-		<ul>
-			<li>2 ovos</li>
-			<li>Queijo</li>
-			<li>Sal</li>
-			<li>Tomare cortado</li>
-		</ul>
+	   <ul>
+		<li>2 ovos</li>
+		<li>Queijo</li>
+		<li>Sal</li>
+		<li>Tomare cortado</li>
+	</ul>
 	<dt>Prepardos</dt>
-		
-		<ol>
-			<li>Bata os 2 ovos</li>
-			<li>Coloque-os na frigideira já untada com óleo</li>
-			<li>Coloque o sal, o presunto e o queijo</li>
-			<li>Ao fim acreste o tomate.</li>
-		</ol>
+	<ol>
+		<li>Bata os 2 ovos</li>
+		<li>Coloque-os na frigideira já untada com óleo</li>
+		<li>Coloque o sal, o presunto e o queijo</li>
+		<li>Ao fim acreste o tomate.</li>
+	</ol>
 </dl>
