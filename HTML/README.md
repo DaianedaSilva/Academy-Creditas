@@ -498,7 +498,7 @@ Podemos criar uma única lista usando as 3 juntas, uma dentro da outra .
 		<li>Sal</li>
 		<li>Tomare cortado</li>
 	</ul>
-	<dt>Prepardos</dt>
+	<dt>Preparos</dt>
 	<ol>
 		<li>Bata os 2 ovos</li>
 		<li>Coloque-os na frigideira já untada com óleo</li>
