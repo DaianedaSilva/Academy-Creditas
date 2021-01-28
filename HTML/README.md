@@ -509,7 +509,62 @@ Podemos criar uma única lista usando as 3 juntas, uma dentro da outra .
 		</ol>
 </dl>
 
-<h3 id="formTag" >Formulários</h3>
+<h2 id="tabelas"> Tabelas </h2>
+Forma de apresentar informações através de tabelas 
+
+Cada < tr > é uma linha, onde tem < th >  e/ou < td > que representam as células da tabela.
+
+Os < th > são os títulos e os < td > as descrições
+
+Tabela na vertical:
+
+	<table border= "1" >
+			<tr>
+				<th> Titulo </th>
+				<th> Titulo </th>
+			</tr>
+			<tr>
+				<td> descrição </td >
+				<td> descrição </td >
+			</tr>
+	</table>
+
+<table border= "1" >
+        <tr>
+            <th> Titulo </th>
+            <th> Titulo </th>
+        </tr>
+        <tr>
+            <td> descrição </td >
+            <td> descrição </td >
+        </tr>
+</table>
+
+Tabela na horizontal:
+
+	<table border= "1" >
+			<tr>
+				<th> Titulo </th>
+				<td> descrição </td >
+			</tr>
+			<tr>
+			   <th> Titulo </th>
+				<td> descrição </td >
+			</tr>
+	</table>
+<table border= "1" >
+        <tr>
+            <th> Titulo </th>
+			<td> descrição </td >
+        </tr>
+        <tr>
+           <th> Titulo </th>
+            <td> descrição </td >
+        </tr>
+</table>
+
+
+<h2 id="formTag" >Formulários</h2>
 A tag responsável por criar formulários em HTML é o:
 		<form> Elememento de entrada <form>
 
@@ -547,16 +602,14 @@ Esse elemento pode variar e ter várias formas
 
 dependendo do atributo, põe exemplo, pode ser :  campo de texto, caixa de verificação, senha, botão de rádio, botão enviar, etc
 
-
-**SINTÁXE:**
+**SINTÁXE: **
 
 	<form>
 	<label for=""> TEXTO </label>
 	<input type="tipo" name ="nome" size="tamanho" maxkength="maximo de caracteres" placeholder="nome que fica de exemplo">
 	</form>
 
-
 <form>
-	<label for=""> TEXTO </label>
-	<input type="tipo" name ="nome" size="tamanho" maxlength="maximo de caracteres" placeholder="nome que fica de exemplo">
+<label for=""> TEXTO </label>
+<input type="tipo" name ="nome" size="tamanho" maxlength="maximo de caracteres" placeholder="nome que fica de exemplo">
 </form>
