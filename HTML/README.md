@@ -453,15 +453,58 @@ Deve ser usada quando somente se deseja descrever um termo < dt > e suas descri�
 
 	<dl> 
 		<dt> Termo 1</dt> 
-		</dd> Descrição 1</dd> 
+			</dd> Descrição 1</dd> 
 		<dt> Termo 2</dt> 
-		</dd> Descrição 2</dd> 
+			</dd> Descrição 2</dd> 
 	</dl> 
 
 <dl> 
 	<dt> Termo 1</dt> 
-	</dd> Descrição 1</dd> 
+		</dd> Descrição 1</dd> 
 	<dt> Termo 2</dt> 
-	</dd> Descrição 2</dd> 
+		</dd> Descrição 2</dd> 
 </dl> 
 
+
+<h3 id="combinandoListas" >Combinando Listas</h3>
+Podemos criar uma única lista usando as 3 juntas, uma dentro da outra .
+
+	<p>Receita de Omelete</p>
+
+	<dl>
+		<dt>Ingredientes</dt>
+			<ul>
+				<li>2 ovos</li>
+				<li>Queijo</li>
+				<li>Sal</li>
+				<li>Tomare cortado</li>
+			</ul>
+		<dt>Preparos</dt>
+			<ol>
+				<li>Bata os 2 ovos</li>
+				<li>Coloque-os na frigideira já untada com óleo</li>
+				<li>Coloque o sal, o presunto e o queijo</li>
+				<li>Ao fim acreste o tomate.</li>
+			</ol>
+	</dl>
+
+<p>Receita de Omelete</p>
+
+<dl>
+	<dt>Ingredientes</dt>
+		
+		<ul>
+			<li>2 ovos</li>
+			<li>Queijo</li>
+			<li>Sal</li>
+			<li>Tomare cortado</li>
+		</ul>
+	<dt>Prepardos</dt>
+		
+		<ol>
+			<li>Bata os 2 ovos</li>
+			<li>Coloque-os na frigideira já untada com óleo</li>
+			<li>Coloque o sal, o presunto e o queijo</li>
+			<li>Ao fim acreste o tomate.</li>
+		</ol>
+</dl>
