@@ -347,13 +347,29 @@ Dentro de uma < ol > pode-se usar infinitas  < li >
 </ol> 
 
 
-
 Podemos mudar o número que a lista inicia, com: 
 
 	* < ol Start = " numero que deseja "> 
 
 Cuidado, pois se ficar uma nova lista dentro desta ela n seguirar a numeração, começará do 1 novamente .
 
+	<ol start="10"> 
+		<li>Hot Dog </li> 
+		<li> Churrasco </li> 
+			<ol> 
+				<li>Suco de Uva </li> 
+				<li> Cerveja </li> 
+				</ol>
+	</ol> 
+
+<ol start="10"> 
+	<li>Hot Dog </li> 
+	<li> Churrasco </li> 
+		<ol> 
+			<li>Suco de Uva </li> 
+			<li> Cerveja </li> 
+			</ol>
+</ol> 
 
 
 <h3 id="ld" >Lista de Definição - dl </h3>
