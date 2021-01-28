@@ -450,6 +450,7 @@ Deve ser usada quando somente se deseja descrever um termo < dt > e suas descri�
 </b>
 
 **SINTÁXE:**
+
 	<dl> 
 		<dt> Termo 1</dt> 
 		</dd> Descrição 1</dd> 
