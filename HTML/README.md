@@ -66,7 +66,7 @@
    </dt>
    
    <dt>
-     <a href="#FormulariosTag">- Formulários</a>
+     <a href="#formTag">- Formulários</a>
    </dt>
 </dl>
 
@@ -524,8 +524,37 @@ A tag < label > é um elemento de entrada que define um rótulo para um elemento
 
 **SINTÁXE:**
 
+        < form >
 		<label for = "nome do rótulo"> Descrição do rótulo </label> 
-		<label for="nome_dono">Nome:</label>  
+        <label for="nome_dono">Nome:</label>  
+    </form>
 
+<form>
 <label for = "nome do rótulo"> Descrição do rótulo </label> 
 		<label for="nome_dono">Nome:</label>  
+</form>
+
+<h3> < input > </h3>
+A tag < input > é um elemento de entrada que especifica um campo de entrada onde o usuário deve inserir dados.
+
+ Deve ser utilizado junto com a tag < label >
+
+ É o elemento mais importante do formulario
+
+Todas as informações do usuário virão por meio dele
+
+Esse elemento pode variar e ter várias formas
+
+dependendo do atributo, põe exemplo, pode ser :  campo de texto, caixa de verificação, senha, botão de rádio, botão enviar, etc
+
+**SINTÁXE: **
+
+	<form>
+	<label for=""> TEXTO </label>
+	<input type="tipo" name ="nome" size="tamanho" maxkength="maximo de caracteres" placeholder="nome que fica de exemplo">
+	</form>
+
+<form>
+<label for=""> TEXTO </label>
+<input type="tipo" name ="nome" size="tamanho" maxkength="maximo de caracteres" placeholder="nome que fica de exemplo">
+</form>
