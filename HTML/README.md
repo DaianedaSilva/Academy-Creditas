@@ -438,4 +438,29 @@ Podemos mudar os números que aparecem por outra coisa, como algoritmos romanos,
 	<li> Item 2 </li> 
 </ol> 
 
+
+
 <h3 id="ld" >Lista de Definição - dl </h3>
+Este tipo de lista Não utiliza marcadores ou número 
+
+Deve ser usada quando somente se deseja descrever um termo < dt > e suas descrições < dd > 
+<b>
+	OBS: 
+		Dentro de um item da lista vc pode colocar texto, quebras de linha, imagens, links, outras listas, etc. 
+</b>
+
+**SINTÁXE:**
+	<dl> 
+		<dt> Termo 1</dt> 
+		</dd> Descrição 1</dd> 
+		<dt> Termo 2</dt> 
+		</dd> Descrição 2</dd> 
+	</dl> 
+
+<dl> 
+	<dt> Termo 1</dt> 
+	</dd> Descrição 1</dd> 
+	<dt> Termo 2</dt> 
+	</dd> Descrição 2</dd> 
+</dl> 
+
