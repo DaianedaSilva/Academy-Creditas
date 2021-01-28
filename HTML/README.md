@@ -221,7 +221,7 @@ Abaixo serão listados as principais tags utilizadas para estilizar textos, onde
 
 * < b >    NEGRITO </ b > 
 
-<b>    NEGRITO </b> 
+		<b>    NEGRITO </b> 
 
 * < strong > TEXTO EM NEGRITO DADO COM IMPORTANTE </ strong > 
 * < em > TEXTO USANDO EMPHISIZED </ em > 
