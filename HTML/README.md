@@ -428,5 +428,14 @@ Podemos mudar os números que aparecem por outra coisa, como algoritmos romanos,
 </tr>
 </table>
 
+	<ol type="I"> 
+		<li> Item 1 </li> 
+		<li> Item 2 </li> 
+	</ol> 
+
+<ol type="I"> 
+	<li> Item 1 </li> 
+	<li> Item 2 </li> 
+</ol> 
 
 <h3 id="ld" >Lista de Definição - dl </h3>
