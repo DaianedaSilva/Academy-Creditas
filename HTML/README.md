@@ -547,14 +547,16 @@ Esse elemento pode variar e ter várias formas
 
 dependendo do atributo, põe exemplo, pode ser :  campo de texto, caixa de verificação, senha, botão de rádio, botão enviar, etc
 
-**SINTÁXE: **
+
+**SINTÁXE:**
 
 	<form>
 	<label for=""> TEXTO </label>
 	<input type="tipo" name ="nome" size="tamanho" maxkength="maximo de caracteres" placeholder="nome que fica de exemplo">
 	</form>
 
+
 <form>
-<label for=""> TEXTO </label>
-<input type="tipo" name ="nome" size="tamanho" maxlength="maximo de caracteres" placeholder="nome que fica de exemplo">
+	<label for=""> TEXTO </label>
+	<input type="tipo" name ="nome" size="tamanho" maxlength="maximo de caracteres" placeholder="nome que fica de exemplo">
 </form>
