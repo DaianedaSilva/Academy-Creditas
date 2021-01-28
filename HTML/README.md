@@ -371,5 +371,27 @@ Cuidado, pois se ficar uma nova lista dentro desta ela n seguirar a numeração,
 			</ol>
 </ol> 
 
+Outras funcionalidade é reverter a numeração, usando de trás para frente: 
+
+* < ol reversed > 
+
+	<ol reverse> 
+		<li> Item 1 </li> 
+		<li> Item 2 </li> 
+			<ol> 
+				<li> Item 3 </li> 
+				<li> Item 4 </li> 
+				</ol>
+	</ol> 
+
+<ol reverse> 
+	<li> Item 1 </li> 
+	<li> Item 2 </li> 
+		<ol> 
+			<li> Item 3 </li> 
+			<li> Item 4 </li> 
+			</ol>
+</ol> 
+
 
 <h3 id="ld" >Lista de Definição - dl </h3>
