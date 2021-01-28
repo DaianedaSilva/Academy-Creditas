@@ -52,7 +52,15 @@
    <dt>
      <a href="#listasTag">- Listas</a>
    </dt>
-   
+   <dt>
+  		 <a href="#lo">Lista Ordenada - ul </a>
+	</dt>
+	<dt>
+	<a href="#lno">Lista Não Ordenada - ol </a>
+	</dt>
+	<dt>
+	<a href="#ld">Lista de Defnição - dl</a>
+	</dt>   
    <dt>
      <a href="#tabelasTag">- Tabelas</a>
    </dt>
