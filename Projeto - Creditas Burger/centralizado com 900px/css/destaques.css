@@ -1,0 +1,126 @@
+.destaque{
+    display:grid;
+
+    grid-template-areas:
+        "titulo"
+        "cards"
+        "botao";
+    
+    grid-template-columns: 650px ;
+    grid-template-rows: 189px  auto 50px ;
+
+}
+
+.destaque__titulo{
+    grid-area: titulo;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    align-items: center;
+}
+
+.destaque__titulo p{
+    font-size: 50px;
+    text-align: center;
+    margin-top:2%
+    
+}
+.destaque__conteudo{
+    grid-area: cards;
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
+
+   
+}
+
+.destaque__cards{
+    display: grid;
+    grid-template-areas: 
+        "imagemHam"
+        "nomeHamb"
+        "descricaoHamb";
+    
+        grid-template-columns: 309px 119px 190px;
+        grid-template-rows:  80px 380px 150px;
+    margin: 2%;
+    margin-bottom: 10%;
+}
+
+
+.destaque__img1{
+    grid-area: imagemHam;
+    grid-column: 1 / 1;
+    grid-row: 1 / 4;
+    
+    background: url("../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
+    margin-left: 7%;
+    
+}
+
+
+.destaque__conteudo .destaque__cards:nth-child(2) .destaque__img2{
+    grid-area: imagemHam;
+    grid-column: 1 / 1;
+    grid-row: 1 / 4;
+    
+    background: url("../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+    margin-left: 7%;
+}
+
+
+
+
+
+.destaque__img3{
+    grid-area: imagemHam;
+    grid-column: 1 / 1;
+    grid-row: 1 / 4;
+    margin-left: 7%;
+    background: url("../../assents/img/banners/destaque3.1.jpg")  center / cover no-repeat;
+}
+
+.destaque__cards__titulo{
+    grid-area: nomeHamb;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+
+
+}
+
+.destaque__cards__titulo p{
+    color: var(--cinza);;
+    font-size: 50px;
+    margin-left: -100px;
+    background: var(--verde);;
+    width: 303px;
+}
+
+.destaque__cards__descricao{
+    grid-area: descricaoHamb;
+    grid-column: 3 /3;
+    grid-row: 3 / 3;   
+    color: var(--preto);
+}
+
+.destaque__conteudo .destaque__cards:nth-child(2) .destaque__cards__descricao{
+    grid-area: descricaoHamb;
+    grid-column: 1 /1;
+    grid-row: 3 / 3;   
+    color:var(--preto);;
+    padding-right: 34%;
+    margin-left: 7%;
+}
+
+
+.destaque__cards__descricao p{
+    font-size: 17px;
+}
+
+.destaque__btn{
+    grid-area: botao;
+    
+    grid-column: 1 / 1;
+    grid-row: 3/ 3;
+   
+}

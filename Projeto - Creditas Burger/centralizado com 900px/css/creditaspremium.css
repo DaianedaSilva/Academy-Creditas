@@ -1,0 +1,60 @@
+
+.cardapio__nome__premium{
+    grid-area: nomeCard;
+    grid-column: 8/10;
+    grid-row: 3/3;
+
+    font-size: 28px;
+    color: var(--cinza);
+    background: var(--verde);
+    height: 44px;
+
+    margin-top: 25%;
+  
+}
+
+.cardapio__nome__premium p{
+    text-align: center;
+
+}
+
+.cardapio .cardapio__card:nth-child(2) .cardapio__img{
+    grid-area: img;
+    grid-column: 3/6;
+    grid-row:3/9;
+
+    background: url("../../assents/img/banners/destaque1.jpg") center / cover no-repeat;
+    transition: ease-in 0.5s;
+}
+
+.cardapio .cardapio__card:nth-child(3) .cardapio__img{
+    grid-area: img;
+    grid-column: 3/6;
+    grid-row:3/9;
+
+    background: url("../../assents/img/banners/destaque2.jpg") center / cover no-repeat;
+    transition: ease-in 0.5s;
+}
+
+.cardapio .cardapio__card:nth-child(4) .cardapio__img{
+    grid-area: img;
+    grid-column: 3/6;
+    grid-row:3/9;
+
+    background: url("../../assents/img/banners/destaque3.jpg") center / cover no-repeat;
+    transition: ease-in 0.5s;
+}
+
+
+.cardapio__img__premium{
+    grid-area: imagemHam;
+    grid-column: 1 / 1;
+    grid-row: 1 / 4;
+    margin-left: 7%;
+    background: url("../../assents/img/banners/destaque3.1.jpg")  center / cover no-repeat;
+}
+
+.cardapio__img__premium:hover{
+    transform: scale(1.05);
+    transition: ease 0.5s;
+}
