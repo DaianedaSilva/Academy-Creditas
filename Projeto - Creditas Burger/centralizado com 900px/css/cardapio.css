@@ -43,6 +43,12 @@
     transition: ease-in 0.5s;
 }
 
+
+.cardapio__img:hover{
+    transform: scale(1.05);
+}
+
+
 .cardapio__contorno2{
     border-bottom: 3px solid var(--verm);;
     border-right: 3px solid var(--verm);;
@@ -76,7 +82,7 @@
 }
 
 .cardapio__card:nth-child(even) .cardapio__nome{
-    background: var(--verde);;
+    background: var(--verde);
 }
 
 .cardapio__descricao{

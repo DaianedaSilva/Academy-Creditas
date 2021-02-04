@@ -45,6 +45,14 @@
     margin-bottom: 10%;
 }
 
+.cardapio__img:hover{
+    transform: scale(1.05);
+}
+
+.cardapio__img{
+    box-shadow: 9px 8px 8px -8px rgb(0 0 0 / 75%);
+}
+
 
 .destaque__img1{
     grid-area: imagemHam;
@@ -53,6 +61,7 @@
     
     background: url("../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
     margin-left: 7%;
+    box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
     
 }
 
@@ -66,6 +75,7 @@
     grid-column: 2 / 4;
     grid-row: 1 / 4;
     margin-left: 7%;
+    box-shadow: -8px 0px 8px -8px rgb(0 0 0 / 75%)
 }
 
 
@@ -78,6 +88,7 @@
     grid-row: 1 / 4;
     margin-left: 7%;
     background: url("../../assents/img/banners/destaque3.1.jpg")  center / cover no-repeat;
+    box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
 }
 
 .destaque__cards__titulo{
@@ -89,10 +100,10 @@
 }
 
 .destaque__cards__titulo p{
-    color: var(--cinza);;
+    color: var(--cinza);
     font-size: 50px;
     margin-left: -100px;
-    background: var(--verde);;
+    background: var(--verde);
     width: 303px;
 }
 
@@ -119,8 +130,74 @@
 
 .destaque__btn{
     grid-area: botao;
+    grid-column: 1 / 1;
+    grid-row: 3/ 3;
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+.destaque__btn a{
+    text-decoration: none;
+}
+
+.destaque__btn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--verm);
+    color: var(--cinza);
+
+    width: 250px;
+    border-radius: 0 20px;
+    transition: ease 0.3s;
+
+    box-shadow: 3px 10px 8px -8px rgb(0 0 0 / 75%);
+}
+
+
+.destaque__btn img{
+    width: 30px;
+    grid-area: botao;
     
     grid-column: 1 / 1;
     grid-row: 3/ 3;
+    display: flex;
+
+    color: white;
+
+    margin-right: 3%;
+
+    transition: ease 0.3s;
+    
+}
+
+.destaque__btn div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--verm);
+    color: var(--cinza);
+  
+
+    width: 250px;
+    border-radius:20px;
+
+    transition: ease 0.3s;
+
+    transform: scale(1.05);
+
+    cursor: pointer;
    
+}
+
+.destaque__btn div:hover img{
+     transform: scale(1.05);
+
+     transition: ease 0.3s;
 }
