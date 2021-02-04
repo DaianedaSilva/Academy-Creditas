@@ -1,0 +1,85 @@
+.pagcardario{
+    display: grid;
+    grid-template-areas:
+        "banner"
+        "menuLateral"
+        "conteudo"
+        "rodape";
+    grid-template-columns: 250px 650px;
+    grid-template-rows: auto auto  ;
+
+    margin: 0;
+    background-color: var(--cinza);
+}
+
+.cardapio{
+    grid-area: conteudo;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.cardapio__card{
+    display: grid;
+    grid-template-areas:
+        "img"
+        "nomeCard"
+        "descricaoCard";
+        grid-template-columns: 30px 20px 60px 150px 60px 20px;
+    grid-template-rows: 50px 20px 60px 100px 50px 100px 100px 60px 20px 20px;
+}
+
+ .cardapio__img{
+    grid-area: img;
+    grid-column: 3/6;
+    grid-row:3/9;
+
+    background: url("../../assents/img/banners/cardapio.jpg") center / cover no-repeat;
+    transition: ease-in 0.5s;
+}
+
+.cardapio__contorno2{
+    border-bottom: 3px solid var(--verm);;
+    border-right: 3px solid var(--verm);;
+
+    grid-area: img;
+    grid-column: 5/8;
+    grid-row: 8/10;
+}
+
+.cardapio__contorno1{
+   border-top: 3px solid var(--verm);;
+    border-left: 3px solid var(--verm);;
+    grid-area: img;
+    grid-column: 2/4;
+    grid-row:2/4;
+}
+
+.cardapio__nome{
+    grid-area: nomeCard;
+    grid-column: 8/10;
+    grid-row: 3/3;
+   
+    background: var(--verm);
+    font-size: 28px;
+    color: #c6d0d9;
+
+    text-align: center;  
+    height: 50%;
+    margin-top: 25%;
+
+}
+
+.cardapio__card:nth-child(even) .cardapio__nome{
+    background: var(--verde);;
+}
+
+.cardapio__descricao{
+    grid-area: descricaoCard;
+    grid-row: 6/6;
+    grid-column: 9/9;
+
+    padding: 1em;
+    margin-left: 13%;
+}
+
+

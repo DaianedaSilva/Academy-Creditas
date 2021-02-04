@@ -1,0 +1,68 @@
+.home{
+    display: grid;
+    grid-template-areas:
+        "banner"
+        "menuLateral"
+        "conteudo"
+        "rodape";
+    
+    grid-template-columns: 250px 650px;
+    grid-template-rows: auto auto auto ;
+
+    margin: 0;
+    background-color: var(--cinza);
+}
+.quemsomos{
+    grid-area: conteudo;
+    grid-column: 2/2;
+    grid-row: 2/2;
+
+    background-color: var(--verm);
+    margin: 2.5em;
+    border-radius: 77px 0;
+    box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
+}
+
+.quemsomos__conteudo{
+    display: grid;
+    grid-template-areas: 
+        "titulo"
+        "texto"
+        "imagemQuem";
+        grid-template-columns: 205px 50px 20px 300px 20px;
+        grid-template-rows: 20px 111px 250px 137px 20px;
+    padding:2em;
+
+    
+}
+
+.quemsomos__conteudo__titulo{
+    grid-area: texto;
+    grid-column: 1/1;
+    grid-row: 1/2;
+    color: var(--cinza);
+
+    font-size: 36px;
+    margin-bottom: 2%;
+
+}
+
+.quemsomos__conteudo__texto{
+    grid-area: texto;
+    grid-column: 1/1;
+    grid-row: 3/3;
+    color: var(--cinza);
+}
+
+.quemsomos__conteudo__texto p{
+    margin-top: 8em;
+}
+
+.quemsomos__conteudo__img{
+    grid-area: imagemQuem;
+    background: url("../../assents/img/banners/destaque3.1.jpg") center/ cover no-repeat;
+    grid-column: 4/5;
+    grid-row: 2/5;
+    box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
+   
+}
