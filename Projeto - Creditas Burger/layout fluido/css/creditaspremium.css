@@ -1,15 +1,16 @@
 
 .cardapio__nome__premium{
     grid-area: nomeCard;
-    grid-column: 8/10;
+    grid-column: 7/8;
     grid-row: 3/3;
 
     font-size: 28px;
     color: var(--cinza);
     background: var(--verde);
-    height: 44px;
-
+    height: 50%;
     margin-top: 25%;
+    width: 321px;
+    height: 100%;
   
 }
 
