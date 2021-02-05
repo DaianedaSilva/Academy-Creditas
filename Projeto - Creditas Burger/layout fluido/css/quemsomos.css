@@ -1,27 +1,15 @@
-.home{
-    display: grid;
-    grid-template-areas:
-        "banner"
-        "menuLateral"
-        "conteudo"
-        "rodape";
-    
-    grid-template-columns: 250px 650px;
-    grid-template-rows: auto auto auto ;
-
-    background-color: var(--cinza);
-}
-
-
 .quemsomos{
     grid-area: conteudo;
     grid-column: 2/2;
     grid-row: 2/2;
 
     background-color: var(--verm);
-    margin: 2.5em;
+    margin: 4% auto;
     border-radius: 77px 0;
-    box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
+    box-shadow: 9px 8px 8px -8px rgb(0 0 0 / 75%);
+
+    width: 80%;
+
 }
 
 .quemsomos__conteudo{
@@ -30,8 +18,8 @@
         "titulo"
         "texto"
         "imagemQuem";
-        grid-template-columns: 205px 50px 20px 300px 20px;
-        grid-template-rows: 20px 111px 250px 137px 20px;
+        grid-template-columns:  40% 2% 56%;
+        grid-template-rows: 2% 25% 63% 10%;
     padding:2em;
 
     
@@ -40,12 +28,21 @@
 .quemsomos__conteudo__titulo{
     grid-area: texto;
     grid-column: 1/1;
-    grid-row: 1/2;
+    grid-row: 2/2;
     color: var(--cinza);
 
     font-size: 36px;
     margin-bottom: 2%;
 
+}
+
+.quemsomos__conteudo__titulo p{
+    margin: 0;
+}
+
+.quemsomos__conteudo__titulo p:nth-child(1){
+    font-family: 'Bungee Inline', cursive;
+    
 }
 
 .quemsomos__conteudo__texto{
@@ -56,14 +53,82 @@
 }
 
 .quemsomos__conteudo__texto p{
-    margin-top: 8em;
+    margin-top: 4em;
 }
 
 .quemsomos__conteudo__img{
     grid-area: imagemQuem;
     background: url("../../assents/img/banners/destaque3.1.jpg") center/ cover no-repeat;
-    grid-column: 4/5;
+    grid-column: 3/3;
     grid-row: 2/5;
-    box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
+    box-shadow:  8px 9px 8px -8px rgb(0 0 0 / 75%);
+
    
+}
+
+.quemsomos__btn{
+    grid-area: botao;
+    grid-column: 1 / 1;
+    grid-row: 4/ 4;
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 5%;
+}
+
+.quemsomos__btn a{
+    text-decoration: none;
+}
+
+.quemsomos__btn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--preto);
+    color: var(--cinza);
+
+    width: 250px;
+    border-radius: 0 20px;
+    transition: ease 0.3s;
+
+    box-shadow: 3px 10px 8px -8px rgb(0 0 0 / 75%);
+}
+
+
+.quemsomos__btn img{
+    width: 30px;
+    grid-area: botao;
+    
+    grid-column: 1 / 1;
+    grid-row: 3/ 3;
+    display: flex;
+
+    color: white;
+
+    margin-right: 3%;
+
+    transition: ease 0.3s;
+    
+}
+
+.quemsomos__btn div:hover{
+
+    border-radius:20px;
+
+    transition: ease 0.3s;
+
+    transform: scale(1.05);
+
+    cursor: pointer;
+   
+}
+
+.quemsomos__btn div:hover img{
+     transform: scale(1.05);
+
+     transition: ease 0.3s;
 }

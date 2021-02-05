@@ -1,13 +1,15 @@
 .formulario{
-   display: grid;
+    display: grid;
     grid-template-areas: 
         "formulario";
-
-    grid-template-columns: 650px;
+    grid-template-columns: 100%;
     grid-template-rows: 800px;
+
     grid-area: conteudo;
     grid-row: 2/2;
     grid-column: 2/2;
+    margin-top: 1%;
+    padding: 2em;
 }
 
 .formulario__img{
@@ -33,6 +35,10 @@
 .formulario__form{
     display: flex;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .formulario__form label{
@@ -61,6 +67,25 @@
     margin-bottom: 9%;
 }
 
+.formulario__form textarea{
+	width: 250px;
+	height: 250px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+    margin-top: 10px;
+    transition:  .35s ease-in-out;
+    resize: none;
+}
+
+
+
+
 .formulario__form input[type=number]{
 	width: 250px;
 	height: 30px;
@@ -83,6 +108,7 @@
     width: 300px;
     transition:  .35s ease-in-out;
 }
+
 
 .formulario__form input[type=password]:focus{
 	outline: none;

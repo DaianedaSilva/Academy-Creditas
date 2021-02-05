@@ -44,10 +44,18 @@
         "nomeHamb"
         "descricaoHamb";
     
-        grid-template-columns: 309px 24px 241px;
+        grid-template-columns: 60% 3% 36%;
         grid-template-rows: 80px 320px 200px;
     margin: 2%;
     margin-bottom: 10%;
+}
+
+.destaque__conteudo .destaque__cards:nth-child(2){
+    grid-template-columns: 36% 3% 60%;
+}
+
+.destaque__conteudo .destaque__cards:nth-child(3){
+    grid-template-columns: 120% 3% 60%;
 }
 
 .destaque__conteudo .destaque__cards:nth-child(1) .destaque__img{
