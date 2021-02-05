@@ -21,7 +21,8 @@
 .destaque__titulo p{
     font-size: 50px;
     text-align: center;
-    margin-top:2%
+    margin-top:2%;
+
     
 }
 .destaque__conteudo{
@@ -40,7 +41,7 @@
         "descricaoHamb";
     
         grid-template-columns: 309px 119px 190px;
-        grid-template-rows:  80px 380px 150px;
+        grid-template-rows: 80px 320px 200px;
     margin: 2%;
     margin-bottom: 10%;
 }

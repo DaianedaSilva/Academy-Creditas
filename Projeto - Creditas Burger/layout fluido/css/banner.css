@@ -1,0 +1,36 @@
+.banner__img{
+    background: url(../../assents/img/banners/banner1-branco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: center;
+}
+
+
+.banner__titulo{
+    font-size: 50px;
+    color: var(--verde);
+    height: 84px;
+}
+
+.banner__titulo p{
+  margin: 0
+}
+
+.banner__subtitulo p{
+    margin: 0
+}
+
+
+.banner__subtitulo{
+    font-size: 30px;
+    color:var(--verm);
+  
+}
+
