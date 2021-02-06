@@ -1,0 +1,140 @@
+.destaque{
+    height: auto;
+    padding-bottom: 5%;
+
+}
+
+
+.destaque__cards{
+    height: 475px;
+    width: 618px;
+    margin: 6%
+}
+
+
+.destaque__conteudo .destaque__cards:nth-child(1) .destaque__img{
+    
+    height: 475px;
+    width: 238px;
+
+    background: url("/../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
+    margin-left: 7%;
+    box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
+    
+}
+
+.destaque__conteudo .destaque__cards:nth-child(2) .destaque__img{
+    
+    height: 475px;
+    width: 238px;
+
+    background: url("/../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
+    margin-left: 53%;
+    box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
+    
+}
+
+
+.destaque__conteudo .destaque__cards:nth-child(3) .destaque__img{
+    
+    height: 475px;
+    width: 238px;
+
+    background: url("/../../assents/img/banners/destaque3.jpg")  center / cover no-repeat;
+    margin-left: 7%;
+    box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
+    
+}
+
+
+.destaque__cards__titulo{
+    color: var(--cinza);
+    font-size: 50px;
+   
+    background: var(--verde);
+    width: 303px;
+
+    position: relative;
+    top: -416px;
+    left: 153px;
+}
+
+
+
+
+.destaque__cards__descricao{
+    height: 108px;
+    width: 191px;
+    position: relative;
+    top: -233px;
+    left: 356px;
+    
+}
+
+.destaque__conteudo .destaque__cards:nth-child(2) .destaque__cards__descricao{
+    left: 47px;
+}
+
+
+/*btn*/
+
+
+
+.destaque__btn a{
+    text-decoration: none;
+}
+
+.destaque__btn div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--verm);
+    color: var(--cinza);
+
+    width: 250px;
+    border-radius: 0 20px;
+    transition: ease 0.3s;
+
+    box-shadow: 3px 10px 8px -8px rgb(0 0 0 / 75%);
+
+    margin: auto;
+}
+
+
+.destaque__btn img{
+    width: 30px;
+    margin-top: 3%;
+  
+    color: white;
+
+    transition: ease 0.3s;
+    
+}
+
+.destaque__btn div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--verm);
+    color: var(--cinza);
+  
+
+    width: 250px;
+    border-radius:20px;
+
+    transition: ease 0.3s;
+
+    transform: scale(1.05);
+
+    cursor: pointer;
+   
+}
+
+.destaque__btn div:hover img{
+     transform: scale(1.05);
+
+     transition: ease 0.3s;
+}

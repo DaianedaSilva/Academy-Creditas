@@ -1,0 +1,56 @@
+
+.contatos{
+   
+    margin: 0;
+    background-color: var(--cinza);
+}
+
+.localizacao{
+   margin-left: 250px;
+   width: 650px;
+   height: 450px;
+}
+
+.localizacao__mapa{
+    position: relative;
+   
+    bottom: 296px;
+    margin-left: 4%;
+}
+
+.localizacao__card{
+ 
+
+    border-radius: 20px;
+    color: white;
+    background-color: var(--verm);;
+    box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
+    transition: ease-in 0.5s;
+
+    width: 228px;
+    height: 350px;
+
+    position: relative;
+    left: 409px;
+    top: 70px;
+    z-index: 1;
+
+}
+
+.localizacao__card p:nth-child(2){
+    padding:2em;
+    text-align: justify;
+}
+.localizacao__card p:nth-child(1){
+    font-size: 18px;
+    padding: 34px 5px 0 5px;
+    text-align: center;
+    
+}
+
+
+.localizacao__card:hover{
+    transform: scale(1.05);
+    transition: ease-in 0.5s;
+
+}

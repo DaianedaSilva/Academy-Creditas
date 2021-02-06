@@ -1,27 +1,31 @@
 .banner__img{
-    background: url(../../assents/img/banners/banner1-branco.jpg);
+    background: url(/../../../assents/img/banners/banner1-branco.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 233px;
     width: 640px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    line-height: 100px;
+
     background-position-y: center;
+    margin-left: 250px;
+    font-family: 'Bungee Inline', cursive;
 }
 
 
 .banner__titulo{
+
     font-size: 50px;
     color: var(--verde);
     height: 0px;
-    margin-top: 9%;
+    text-align: center;
+    
+
 }
 
 .banner__subtitulo{
     font-size: 30px;
     color:var(--verm);
-    margin: 16%;
+    margin-top: 10%;
+    text-align: center;
 }
 

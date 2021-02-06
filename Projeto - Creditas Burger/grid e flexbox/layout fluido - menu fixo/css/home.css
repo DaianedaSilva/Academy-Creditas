@@ -29,7 +29,7 @@ body{
         "conteudo"
         "rodape";
     
-    grid-template-columns: 16% 84%;
+    grid-template-columns: 250px calc(100% - 250px);
     grid-template-rows: auto auto auto ;
 
     background-color: var(--cinza);

@@ -55,24 +55,24 @@
 }
 
 
-.destaque__img1{
+.destaque__conteudo .destaque__cards:nth-child(1) .destaque__img{
     grid-area: imagemHam;
     grid-column: 1 / 1;
     grid-row: 1 / 4;
     
-    background: url("../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
     margin-left: 7%;
     box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
     
 }
 
 
-.destaque__conteudo .destaque__cards:nth-child(2) .destaque__img2{
+.destaque__conteudo .destaque__cards:nth-child(2) .destaque__img{
     grid-area: imagemHam;
     grid-column: 1 / 1;
     grid-row: 1 / 4;
     
-    background: url("../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
     grid-column: 2 / 4;
     grid-row: 1 / 4;
     margin-left: 7%;
@@ -83,12 +83,12 @@
 
 
 
-.destaque__img3{
+.destaque__conteudo .destaque__cards:nth-child(3) .destaque__img{
     grid-area: imagemHam;
     grid-column: 1 / 1;
     grid-row: 1 / 4;
     margin-left: 7%;
-    background: url("../../assents/img/banners/destaque3.1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque3.1.jpg")  center / cover no-repeat;
     box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
 }
 

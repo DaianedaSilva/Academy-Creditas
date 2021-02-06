@@ -33,7 +33,7 @@
     grid-column: 3/6;
     grid-row:3/9;
 
-    background: url("../../assents/img/banners/cardapio.jpg") center / cover no-repeat;
+    background: url("/../../assents/img/banners/cardapio.jpg") center / cover no-repeat;
     transition: ease-in 0.5s;
 }
 

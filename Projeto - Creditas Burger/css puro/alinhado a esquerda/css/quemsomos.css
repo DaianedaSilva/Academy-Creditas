@@ -1,0 +1,54 @@
+.home{
+
+    margin: 0;
+    background-color: var(--cinza);
+}
+.quemsomos{
+    
+    margin: 2% 0 2% 295px;
+    background-color: var(--verm);
+
+    width: 560px;  
+    height: 600px;
+   
+    border-radius: 77px 0;
+    box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
+}
+
+.quemsomos__conteudo{
+    
+    
+}
+
+.quemsomos__conteudo__titulo{
+    color: var(--cinza);
+
+    font-size: 36px;
+    position:relative;
+    top: 32px;
+    left: 23px;
+    
+    padding: 0 9em 0 0;
+
+}
+
+.quemsomos__conteudo__texto{
+  
+    color: var(--cinza);
+}
+
+.quemsomos__conteudo__texto p{
+    margin: 9em 20em 0 2em;
+}
+
+.quemsomos__conteudo__img{
+    height: 500px;
+    width: 300px;
+    background: url(/../../assents/img/banners/destaque3.1.jpg) center/ cover no-repeat;
+    box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
+
+    position: relative;
+    top: -380px;
+    left: 293px;
+   
+}
