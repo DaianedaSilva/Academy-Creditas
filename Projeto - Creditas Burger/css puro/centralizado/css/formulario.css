@@ -1,0 +1,95 @@
+.formulario{
+    width: 650px;
+    margin: 50px 0 0 250px;
+ }
+ 
+ .formulario__img{
+     background: url("../../../../assents/img/banners/bannerform.png");
+     background-attachment:fixed;
+     background-size: unset;
+     background-position-x: right;
+     background-position-y: center;
+
+ }
+ 
+ 
+ .formulario__form{
+    height: 500px;
+    text-align: center;
+ }
+ 
+ .formulario__form label{
+     font-size: 16px;
+     font-weight: 400;
+     color: #fff;
+     margin-right: 2%;
+     
+ }
+ 
+ .formulario__titulo p{
+     color: white;
+     font-size: 36px;
+     text-align: center;
+ padding-top: 3%;
+ 
+ }
+ 
+ .formulario__form input[type=text]{
+     width: 250px;
+     height: 30px;
+     background: transparent;
+     border: 1px solid rgba(255,255,255,0.6);
+     border-radius: 2px;
+     color: #fff;
+     font-size: 16px;
+     font-weight: 400;
+     padding: 4px;
+     margin-bottom: 9%;
+
+     margin-bottom: 9%;
+
+     margin-top: 7%;
+ }
+ 
+ .formulario__form input[type=number]{
+     width: 250px;
+     height: 30px;
+     background: transparent;
+     border: 1px solid rgba(255,255,255,0.6);
+     border-radius: 2px;
+     color: #fff;
+     font-family: 'Exo', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     padding: 4px;
+     margin-top: 10px;
+     transition:  .35s ease-in-out;
+ }
+ 
+ 
+ .formulario__form input[type=text]:focus{
+     outline: none;
+     border: 1px solid rgba(255,255,255,0.9);
+     width: 300px;
+     transition:  .35s ease-in-out;
+ }
+ 
+ .formulario__form input[type=password]:focus{
+     outline: none;
+     border: 1px solid rgba(255,255,255,0.9);
+     transition:  .35s ease-in-out;
+     width: 300px;
+ }
+ 
+ .formulario__form input[type=button]:focus{
+     outline: none;
+ }
+ 
+ ::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.6);
+ }
+ 
+ ::-moz-input-placeholder{
+    color: rgba(255,255,255,0.6);
+ }
+
