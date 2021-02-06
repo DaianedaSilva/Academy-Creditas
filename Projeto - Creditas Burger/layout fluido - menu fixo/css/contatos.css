@@ -1,0 +1,65 @@
+
+.localizacao{
+    grid-area: conteudo;
+    grid-row: 1/1;
+    grid-column: 2/2;
+
+    display: grid;
+
+    grid-template-areas: 
+        "mapa"
+        "card";
+        grid-template-columns: 10% 60% 10% 10% 10% ;
+    grid-template-rows: 20px 559px 20px;
+}
+
+.localizacao__mapa{
+    grid-area: mapa;
+    grid-row: 2/2;
+    grid-column: 2/6;
+    margin: 2%;
+}
+.localizacao__mapa iframe{
+    box-shadow:     0px 2px 14px -3px rgb(0 0 0 / 75%)
+
+}
+.localizacao__card{
+    grid-area: card;
+    grid-column: 3/5 ;
+    grid-row: 2/2;
+
+    z-index: 1;
+
+    border-radius: 20px;
+    color: white;
+    background-color: var(--verm);
+    box-shadow: 7px 7px 8px -8px rgb(0 0 0 / 75%)
+    transition: ease-in 0.5s;
+
+    margin: auto;
+    height: 74%;
+    width: 83%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.localizacao__card p:nth-child(2){
+    padding:1em;
+    text-align: justify;
+}
+.localizacao__card p:nth-child(1){
+    font-size: 18px;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+
+
+.localizacao__card:hover{
+    transform: scale(1.05);
+    transition: ease-in 0.5s;
+
+}
