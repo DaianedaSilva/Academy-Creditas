@@ -3,7 +3,6 @@
     --verm: #8d3533;
     --cinza: #c6d0d9;
     --verde: #107361;
-  
 }
 
 body{
@@ -35,8 +34,6 @@ body{
     height: auto;
     margin-left: 250px ;
 
-
-
     background-color:var(--cinza);
 
 }
@@ -47,8 +44,6 @@ body{
     z-index: 1;
     position: relative;
 
-
-  
 }
 
 .titulo{

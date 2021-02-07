@@ -15,9 +15,8 @@
     box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
 }
 
-.quemsomos__conteudo{
-    
-    
+.quemsomos__conteudo {
+    height: 150px;
 }
 
 .quemsomos__conteudo__titulo{
@@ -51,4 +50,73 @@
     top: -380px;
     left: 293px;
    
+}
+
+
+/*btn*/
+
+.destaque__btn{
+    position: relative;
+    bottom: 366px;
+}
+
+.destaque__btn div a{
+    text-decoration: none;
+    color: var(--cinza);
+    display: flex;
+}
+.destaque__btn div a p{
+    width: 150px;
+    margin: 5% 0 0 5%
+}
+.destaque__btn div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--preto);
+    color: var(--cinza);
+
+    width: 250px;
+    border-radius: 0 20px;
+    transition: ease 0.3s;
+
+    box-shadow: 3px 10px 8px -8px rgb(0 0 0 / 75%);
+
+    margin: auto;
+}
+
+
+.destaque__btn img{
+    width: 30px;
+    margin-top: 3%;
+  
+    color: white;
+
+    transition: ease 0.3s;
+    
+}
+
+.destaque__btn div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+    width: 250px;
+    border-radius:20px;
+
+    transition: ease 0.3s;
+
+    transform: scale(1.05);
+
+    cursor: pointer;
+   
+}
+
+.destaque__btn div:hover img{
+     transform: scale(1.05);
+
+     transition: ease 0.3s;
 }

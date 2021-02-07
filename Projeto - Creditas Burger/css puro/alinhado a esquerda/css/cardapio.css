@@ -1,5 +1,4 @@
 .pagcardario{
-   
     margin: 0;
     background-color: var(--cinza);
 }
@@ -56,13 +55,11 @@
 }
 
 
-
-
 .cardapio__nome{
    
     background: var(--verm);
     font-size: 28px;
-    color: #c6d0d9;
+    color: var(--cinza);
 
     text-align: center;  
     height: 6%;
@@ -79,9 +76,6 @@
 }
 
 .cardapio__descricao{
-    
-    
-
 
     position: relative;
     bottom: 285px;
