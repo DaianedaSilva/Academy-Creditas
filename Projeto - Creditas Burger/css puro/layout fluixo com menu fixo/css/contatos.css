@@ -57,3 +57,19 @@
     transition: ease-in 0.5s;
 
 }
+
+@media screen and (max-width: 988px){
+   
+    .localizacao__mapa {
+
+        margin-left: 26%;
+    }
+
+    .localizacao__card {
+      
+        position: relative;
+        left: 65%;
+        top: 70px;
+    
+    }
+}

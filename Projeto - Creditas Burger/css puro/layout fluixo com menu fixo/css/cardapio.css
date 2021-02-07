@@ -101,5 +101,18 @@
      
     }
     
+    .cardapio__contorno1 {
+      
+        position: relative;
+        top: 35px;
+        left: 29px;
+    }
+    
+    .cardapio__contorno2 {
+        
+        position: relative;
+        top: 436px;
+        left: 272px;
+    }
 
 }

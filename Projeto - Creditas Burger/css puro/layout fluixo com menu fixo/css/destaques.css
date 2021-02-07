@@ -44,7 +44,7 @@
 .destaques__nome{
     background: var(--verde);
     font-size: 28px;
-    color: #c6d0d9;
+    color: var(--cinza);
 
     text-align: center;  
     height: 6%;
@@ -133,7 +133,6 @@
 
      transition: ease 0.3s;
 }
-
 
 
 @media screen and (max-width: 1615px){
