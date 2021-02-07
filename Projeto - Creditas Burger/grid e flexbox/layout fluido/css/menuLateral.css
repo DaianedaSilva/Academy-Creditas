@@ -9,6 +9,14 @@ ul{
     background-color: var(--preto);
 }
 
+
+.fixarMenu{
+    position: sticky;
+    top: 0;
+}
+
+
+
 .logo{
 
     width: 96px;
