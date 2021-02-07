@@ -61,7 +61,7 @@
    
     background: var(--verm);
     font-size: 28px;
-    color: #c6d0d9;
+    color: var(--cinza);
 
     text-align: center;  
     height: 50%;
@@ -70,7 +70,7 @@
 }
 
 .cardapio__card:nth-child(even) .cardapio__nome{
-    background: var(--verde);;
+    background: var(--verde);
 }
 
 .cardapio__descricao{

@@ -31,10 +31,8 @@
         "texto"
         "imagemQuem";
         grid-template-columns: 205px 50px 20px 300px 20px;
-        grid-template-rows: 20px 111px 250px 137px 20px;
+        grid-template-rows: 20px 111px 250px 137px 50px;
     padding:2em;
-
-    
 }
 
 .quemsomos__conteudo__titulo{
@@ -45,7 +43,6 @@
 
     font-size: 36px;
     margin-bottom: 2%;
-
 }
 
 .quemsomos__conteudo__texto{
@@ -68,3 +65,75 @@
    
 }
 
+/*btn*/
+
+.quemsomos__btn{
+    grid-area: texto;
+    grid-column: 1/1;
+    grid-row: 5/5;
+    height: 87px;
+    transition: ease 0.3s;
+}
+
+.quemsomos__btn div a{
+    text-decoration: none;
+    color: var(--cinza);
+    display: inherit;
+}
+
+.quemsomos__btn div a p{
+    width: 136px;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.quemsomos__btn div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--preto);
+    color: var(--cinza);
+
+    width: 261px;
+    height: 40px;
+    border-radius: 0 20px;
+    
+    transition: ease 0.3s;
+    box-shadow: 3px 10px 8px -8px rgb(0 0 0 / 75%);
+   
+    margin-left: 13%;
+    transition: ease 0.3s;
+
+}
+
+
+.quemsomos__btn img{
+    width: 30px;
+    margin-top: 3%;
+    margin-right: 2%;
+  
+    color: white;
+
+    transition: ease 0.3s;
+    
+}
+
+.quemsomos__btn div:hover{
+
+    border-radius:20px;
+
+    transition: ease 0.3s;
+
+    transform: scale(1.05);
+
+    cursor: pointer;
+   
+}
+
+.quemsomos__btn div:hover img{
+     transform: scale(1.05);
+
+     transition: ease 0.3s;
+}
