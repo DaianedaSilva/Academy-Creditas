@@ -23,18 +23,18 @@
 
 .destaques .destaques__card:nth-child(1) .destaques__img{
     
-    background: url("/../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
   
 }
 
 .destaques .destaques__card:nth-child(2) .destaques__img{
     
-    background: url("/../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
   
 }
 .destaques .destaques__card:nth-child(3) .destaques__img{
     
-    background: url("/../../assents/img/banners/destaque3.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque3.jpg")  center / cover no-repeat;
 
 }
 

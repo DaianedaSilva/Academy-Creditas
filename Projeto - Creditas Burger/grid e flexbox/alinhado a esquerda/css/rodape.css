@@ -6,7 +6,7 @@
     height: 30vh;
     color: white;
 
-    background: url("/../../assents/img/banners/banner1-preto.jpg") center / cover no-repeat;
+    background: url("../../../assents/img/banners/banner1-preto.jpg") center / cover no-repeat;
    
     width: 900px;
 }

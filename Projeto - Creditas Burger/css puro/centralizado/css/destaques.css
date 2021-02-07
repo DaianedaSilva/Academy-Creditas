@@ -17,7 +17,7 @@
     height: 475px;
     width: 238px;
 
-    background: url("/../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
     margin-left: 7%;
     box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
     
@@ -28,7 +28,7 @@
     height: 475px;
     width: 238px;
 
-    background: url("/../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
     margin-left: 53%;
     box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
     
@@ -40,7 +40,7 @@
     height: 475px;
     width: 238px;
 
-    background: url("/../../assents/img/banners/destaque3.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque3.jpg")  center / cover no-repeat;
     margin-left: 7%;
     box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
     

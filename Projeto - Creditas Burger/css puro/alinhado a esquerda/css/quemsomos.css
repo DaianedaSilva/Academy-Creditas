@@ -43,7 +43,7 @@
 .quemsomos__conteudo__img{
     height: 500px;
     width: 300px;
-    background: url(/../../assents/img/banners/destaque3.1.jpg) center/ cover no-repeat;
+    background: url(../../../assents/img/banners/destaque3.1.jpg) center/ cover no-repeat;
     box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
 
     position: relative;

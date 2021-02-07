@@ -61,9 +61,83 @@
 
 .quemsomos__conteudo__img{
     grid-area: imagemQuem;
-    background: url("/../../assents/img/banners/destaque3.1.jpg") center/ cover no-repeat;
+    background: url("../../../assents/img/banners/destaque3.1.jpg") center/ cover no-repeat;
     grid-column: 4/5;
     grid-row: 2/5;
     box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
    
+}
+
+
+/*btn*/
+
+.quemsomos__btn{
+    grid-area: texto;
+    grid-column: 1/1;
+    grid-row: 5/5;
+    height: 87px;
+    transition: ease 0.3s;
+}
+
+.quemsomos__btn div a{
+    text-decoration: none;
+    color: var(--cinza);
+    display: inherit;
+}
+
+.quemsomos__btn div a p{
+    width: 136px;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.quemsomos__btn div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--preto);
+    color: var(--cinza);
+
+    width: 261px;
+    height: 40px;
+    border-radius: 0 20px;
+    
+    transition: ease 0.3s;
+    box-shadow: 3px 10px 8px -8px rgb(0 0 0 / 75%);
+   
+    margin-left: 13%;
+    transition: ease 0.3s;
+
+}
+
+
+.quemsomos__btn img{
+    width: 30px;
+    margin-top: 3%;
+    margin-right: 2%;
+  
+    color: white;
+
+    transition: ease 0.3s;
+    
+}
+
+.quemsomos__btn div:hover{
+
+    border-radius:20px;
+
+    transition: ease 0.3s;
+
+    transform: scale(1.05);
+
+    cursor: pointer;
+   
+}
+
+.quemsomos__btn div:hover img{
+     transform: scale(1.05);
+
+     transition: ease 0.3s;
 }

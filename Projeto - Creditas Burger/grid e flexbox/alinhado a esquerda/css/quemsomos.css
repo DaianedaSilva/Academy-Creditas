@@ -58,7 +58,7 @@
 
 .quemsomos__conteudo__img{
     grid-area: imagemQuem;
-    background: url("/../../assents/img/banners/destaque3.1.jpg") center/ cover no-repeat;
+    background: url("../../../assents/img/banners/destaque3.1.jpg") center/ cover no-repeat;
     grid-column: 4/5;
     grid-row: 2/5;
     box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);

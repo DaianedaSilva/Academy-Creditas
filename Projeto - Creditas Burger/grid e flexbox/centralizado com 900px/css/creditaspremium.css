@@ -23,7 +23,7 @@
     grid-column: 3/6;
     grid-row:3/9;
 
-    background: url("/../../assents/img/banners/destaque1.jpg") center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque1.jpg") center / cover no-repeat;
     transition: ease-in 0.5s;
 }
 
@@ -32,7 +32,7 @@
     grid-column: 3/6;
     grid-row:3/9;
 
-    background: url("/../../assents/img/banners/destaque2.jpg") center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque2.jpg") center / cover no-repeat;
     transition: ease-in 0.5s;
 }
 
@@ -41,7 +41,7 @@
     grid-column: 3/6;
     grid-row:3/9;
 
-    background: url("/../../assents/img/banners/destaque3.jpg") center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque3.jpg") center / cover no-repeat;
     transition: ease-in 0.5s;
 }
 

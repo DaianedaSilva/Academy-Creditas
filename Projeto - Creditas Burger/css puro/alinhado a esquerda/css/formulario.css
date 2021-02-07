@@ -4,7 +4,7 @@
  }
  
  .formulario__img{
-     background: url("../../../../assents/img/banners/bannerform.png");
+     background: url("../../../assents/img/banners/bannerform.png");
      background-attachment:fixed;
      background-size: unset;
      background-position-x: right;
