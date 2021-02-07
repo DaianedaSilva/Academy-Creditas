@@ -80,10 +80,15 @@
 
 
 
-.destaque__btn a{
+.destaque__btn div a{
     text-decoration: none;
+    color: var(--cinza);
+    display: flex;
 }
-
+.destaque__btn div a p{
+    width: 150px;
+    margin: 5% 0 0 5%
+}
 .destaque__btn div{
 
     display: flex;
