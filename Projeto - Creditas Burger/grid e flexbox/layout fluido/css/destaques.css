@@ -7,7 +7,7 @@
         "botao";
     
     grid-template-columns: 100% ;
-    grid-template-rows: 189px  auto 50px ;
+    grid-template-rows: 189px  auto 96px ;
 
 }
 
@@ -35,20 +35,20 @@
 
 .destaque__cards{
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "imagemHam"
         "nomeHamb"
         "descricaoHamb";
-    
-        grid-template-columns: 60% 3% 36%;
-        grid-template-rows: 80px 320px 200px;
-    margin: 2%;
-    margin-bottom: 10%;
+    grid-template-columns: 52% 3% 45%;
+    grid-template-rows: 80px 320px 200px;
+    /* margin-bottom: 10%; */
+    width: 49%;
+    margin: auto
  
 }
 
 .destaque__conteudo .destaque__cards:nth-child(2){
-    grid-template-columns: 36% 3% 60%;
+    grid-template-columns: 52% 3% 45%;
 }
 
 
@@ -57,7 +57,7 @@
     grid-column: 1 / 1;
     grid-row: 1 / 4;
     
-    background: url("../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque1.jpg")  center / cover no-repeat;
     margin-left: 7%;
     box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
 
@@ -69,7 +69,7 @@
     grid-column: 1 / 1;
     grid-row: 1 / 4;
     
-    background: url("../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
     grid-column: 2 / 4;
     grid-row: 1 / 4;
     margin-left: 7%;
@@ -82,7 +82,7 @@
     grid-column: 1 / 1;
     grid-row: 1 / 4;
     margin-left: 7%;
-    background: url("../../assents/img/banners/destaque3.1.jpg")  center / cover no-repeat;
+    background: url("../../../assents/img/banners/destaque3.1.jpg")  center / cover no-repeat;
     box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
 }
 
@@ -117,13 +117,14 @@
     grid-column: 1 /1;
     grid-row: 3 / 3;   
     color:var(--preto);;
-    padding-left: 19%;
-    margin-left: 7%;
+    margin-right: 309px;
 }
 
 
 .destaque__cards__descricao p{
-    font-size: 17px;
+        font-size: 17px;
+    width: 252px;
+    margin-left: 21%;
 }
 
 
@@ -137,7 +138,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 7%;
+  
 }
 
 .destaque__btn a{

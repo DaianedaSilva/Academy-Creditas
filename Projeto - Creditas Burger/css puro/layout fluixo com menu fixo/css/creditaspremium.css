@@ -1,0 +1,40 @@
+.cardapio__nome__premium{
+   
+    background: var(--verde);
+    font-size: 28px;
+    color: #c6d0d9;
+
+    text-align: center;  
+    height: 6%;
+    width: 319px;
+
+    position: relative;
+    bottom: 440px;
+    left: 189px;
+
+}
+.cardapio .cardapio__card:nth-child(2) .cardapio__img{
+  
+    background: url("../../../assents/img/banners/destaque1.jpg") center / cover no-repeat;
+    transition: ease-in 0.5s;
+}
+
+.cardapio .cardapio__card:nth-child(3) .cardapio__img{
+  
+    background: url("../../../assents/img/banners/destaque2.1.jpg") center / cover no-repeat;
+    transition: ease-in 0.5s;
+}
+
+.cardapio .cardapio__card:nth-child(4) .cardapio__img{
+  
+    background: url("../../../assents/img/banners/destaque3.jpg") center / cover no-repeat;
+    transition: ease-in 0.5s;
+}
+
+
+
+
+.cardapio__img__premium:hover{
+    transform: scale(1.05);
+    transition: ease 0.5s;
+}

@@ -1,0 +1,176 @@
+.home{
+
+    margin: 0;
+    background-color: var(--cinza);
+}
+
+.quemsomos{
+  
+    margin: 2% 0 2% 250px;
+   
+    width: auto;
+}
+
+.quemsomos__conteudo{
+    
+    background-color: var(--verm);
+    width: 80%;
+    height: 500px;
+    border-radius: 77px 0;
+    box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
+    margin: auto;
+    transition: ease 0.3s;
+}
+
+
+.quemsomos__conteudo__titulo{
+    color: var(--cinza);
+
+    font-size: 36px;
+    position:relative;
+    top: 32px;
+    left: 23px;
+    
+    padding: 0 9em 0 0;
+    transition: ease 0.3s;
+
+}
+
+.quemsomos__conteudo__texto{
+  
+    color: var(--cinza);
+}
+
+.quemsomos__conteudo__texto p{
+    margin: 4% 41px;
+    width: 27%;
+  
+    position: relative;
+    top: 76px;
+}
+
+.quemsomos__conteudo__img{
+    
+    background: url(/../../assents/img/banners/destaque3.1.jpg) center/ cover no-repeat;
+    box-shadow: 8px 0px 8px -8px rgb(0 0 0 / 75%);
+    width: 53%;
+    height: 423px;
+    margin: 0 8%;
+    position: relative;
+    bottom: 46%;
+    left: 35%;
+    transition: ease 0.3s;
+}
+   
+
+
+/*btn*/
+
+.quemsomos__btn{
+    height: 87px;
+    position: relative;
+    bottom: 261px;
+    transition: ease 0.3s;
+}
+
+.quemsomos__btn div a{
+    text-decoration: none;
+    color: var(--cinza);
+    display: inherit;
+}
+
+.quemsomos__btn div a p{
+    width: 136px;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.quemsomos__btn div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--preto);
+    color: var(--cinza);
+
+    width: 261px;
+    height: 40px;
+    border-radius: 0 20px;
+    
+    transition: ease 0.3s;
+    box-shadow: 3px 10px 8px -8px rgb(0 0 0 / 75%);
+   
+    margin-left: 13%;
+    transition: ease 0.3s;
+
+}
+
+
+.quemsomos__btn img{
+    width: 30px;
+    margin-top: 3%;
+    margin-right: 2%;
+  
+    color: white;
+
+    transition: ease 0.3s;
+    
+}
+
+.quemsomos__btn div:hover{
+   
+
+    border-radius:20px;
+
+    transition: ease 0.3s;
+
+    transform: scale(1.05);
+
+    cursor: pointer;
+   
+}
+
+.quemsomos__btn div:hover img{
+     transform: scale(1.05);
+
+     transition: ease 0.3s;
+}
+
+
+@media screen and (max-width: 1367px){
+    .quemsomos__btn{
+        bottom: 292px;
+    }
+    .quemsomos__btn div{
+        margin-left: 4%;
+   
+    }
+
+  
+}
+
+@media screen and (max-width: 1024px){
+    .quemsomos__conteudo {
+        
+        width: 80%;
+        margin: auto;
+        transition: ease 0.3s;
+  
+        height: 607px;}
+
+    .quemsomos__btn {
+        bottom: 50%;
+        transition: ease 0.3s;
+    
+    }
+
+    .quemsomos__conteudo__img {
+      
+        position: relative;
+        bottom: 50%;
+        transition: ease 0.3s;
+   
+    }
+   
+}
