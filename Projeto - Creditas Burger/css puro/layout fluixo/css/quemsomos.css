@@ -160,7 +160,7 @@
         height: 607px;}
 
     .quemsomos__btn {
-        bottom: 50%;
+        bottom: 28%;
         transition: ease 0.3s;
     
     }
@@ -168,9 +168,34 @@
     .quemsomos__conteudo__img {
       
         position: relative;
-        bottom: 50%;
+        bottom: 32%;
+
         transition: ease 0.3s;
    
     }
+   
+}
+
+@media screen and (max-width: 900px){
+    .quemsomos__conteudo {
+        width: 80%;
+        margin: auto;
+        transition: ease 0.3s;
+        height: 650px;
+    }
+
+    .quemsomos__btn {
+        bottom: 44%;
+
+        transition: ease 0.3s;
+    
+    }
+
+    .quemsomos__conteudo__img {
+        position: relative;
+        bottom: 50%;
+        transition: ease 0.3s;
+    }
+
    
 }

@@ -63,7 +63,7 @@
    
     background: var(--verm);
     font-size: 28px;
-    color: #c6d0d9;
+    color: var(--cinza);
 
     text-align: center;  
     height: 6%;
