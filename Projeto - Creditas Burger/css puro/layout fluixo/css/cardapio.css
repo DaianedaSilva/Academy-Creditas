@@ -1,0 +1,117 @@
+.pagcardario{
+   
+    margin: 0;
+    background-color: var(--cinza);
+}
+
+.cardapio{
+ margin: auto;
+ width: 650px;
+}
+
+.cardapio__card{
+    
+    width: 650px;
+    height: 578px;
+    margin-left: 18%;
+}
+
+.cardapio__img{
+    
+    width: 270px;
+    height: 470px;
+    width: 270px;
+    height: 470px;
+    margin: 0 8%;
+
+    position: relative;
+    bottom: 53px;
+
+    background: url("../../../assents/img/banners/cardapio.jpg") center / cover no-repeat;
+    transition: ease-in 0.5s;
+}
+.cardapio__img:hover{
+    
+   transform: scale(1.05);
+}
+
+
+.cardapio__contorno1{
+    width: 50px;
+    height: 50px;
+    border-top: 3px solid var(--verm);
+    border-left: 3px solid var(--verm);
+    position: relative;
+    top: 31px;
+    left: 34px;
+   
+}
+
+.cardapio__contorno2{
+    width: 50px;
+    height: 50px;
+    border-bottom: 3px solid var(--verm);
+    border-right: 3px solid var(--verm);
+    position: relative;
+    top: 438px;
+    left: 285px;
+
+}
+
+
+.cardapio__nome{
+   
+    background: var(--verm);
+    font-size: 28px;
+    color: #c6d0d9;
+
+    text-align: center;  
+    height: 6%;
+    width: 319px;
+
+    position: relative;
+    bottom: 440px;
+    left: 189px;
+
+}
+
+.cardapio__card:nth-child(even) .cardapio__nome{
+    background: var(--verde);
+}
+
+.cardapio__descricao{
+
+    position: relative;
+    bottom: 285px;
+    left: 419px;
+    width: 175px;
+}
+
+
+@media screen and (max-width: 988px){
+    .cardapio__descricao {
+        position: relative;
+        bottom: 285px;
+        left: 370px;
+        width: 175px;
+    
+    }
+    .cardapio__card {
+        width: 80%;
+     
+    }
+    .cardapio__contorno1 {
+       
+        position: relative;
+        top: 31px;
+        left: 26px;
+    }
+    .cardapio__contorno2 {
+      
+        position: relative;
+        top: 438px;
+        left: 276px;
+    }
+    
+
+}

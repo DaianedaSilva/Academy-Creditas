@@ -1,0 +1,28 @@
+.banner__img{
+    background: url(/../../../assents/img/banners/banner1-branco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 233px;
+    line-height: 100px;
+
+    background-position-y: center;
+    margin-left: 18%;
+    font-family: 'Bungee Inline', cursive;
+}
+
+
+.banner__titulo{
+
+    font-size: 50px;
+    color: var(--verde);
+    height: 0px;
+    text-align: center;
+
+}
+
+.banner__subtitulo{
+    font-size: 30px;
+    color:var(--verm);
+    text-align: center;
+}
+
