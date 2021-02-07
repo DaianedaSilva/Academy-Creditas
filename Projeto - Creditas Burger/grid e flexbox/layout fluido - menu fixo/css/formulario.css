@@ -27,13 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-   
+
 }
-
- 
-
-
 
 .formulario__form{
     display: flex;
@@ -87,8 +82,6 @@
 }
 
 
-
-
 .formulario__form input[type=number]{
 	width: 250px;
 	height: 30px;
@@ -111,8 +104,6 @@
     width: 300px;
     transition:  .35s ease-in-out;
 }
-
-
 
 
 ::-webkit-input-placeholder{

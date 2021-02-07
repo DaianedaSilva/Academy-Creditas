@@ -41,7 +41,6 @@
         "descricaoHamb";
     grid-template-columns: 52% 3% 45%;
     grid-template-rows: 80px 320px 200px;
-    /* margin-bottom: 10%; */
     width: 49%;
     margin: auto
  
@@ -87,13 +86,10 @@
 }
 
 
-
-
 .destaque__cards__titulo{
     grid-area: nomeHamb;
     grid-column: 2 / 2;
     grid-row: 2 / 2;
-
 
 }
 
@@ -127,8 +123,6 @@
     margin-left: 21%;
 }
 
-
-
 .destaque__btn{
     grid-area: botao;
     grid-column: 1 / 1;
@@ -141,9 +135,16 @@
   
 }
 
-.destaque__btn a{
+.destaque__btn div a{
     text-decoration: none;
+    color: var(--cinza);
+    display: flex;
 }
+.destaque__btn div a p{
+   width: 150px;
+   margin-left: 5%;
+}
+
 
 .destaque__btn div{
     display: flex;
