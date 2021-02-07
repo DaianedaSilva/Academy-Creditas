@@ -41,8 +41,8 @@ body{
 }
 
 .menu__item{
-   
-    width: 82%;
+    
+    width: 78%;
     transition: ease-in 0.5s;
     margin: 2% 0 0 0;
     border-radius: 20px 0 0 20px;
@@ -58,9 +58,7 @@ body{
 
     opacity: 0;
     
-}
 
-.menu__item img{
     transition:ease-in 0.5s;
     position: relative;
     top: 12px;
