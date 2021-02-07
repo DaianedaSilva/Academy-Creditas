@@ -21,7 +21,7 @@ body{
 }
 
 
-.home{
+.site{
     display: grid;
     grid-template-areas:
         "banner"

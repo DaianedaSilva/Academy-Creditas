@@ -3,6 +3,7 @@
     --verm: #8d3533;
     --cinza: #c6d0d9;
     --verde: #107361;
+  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
@@ -13,15 +14,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-
-.centralizar{ 
-	max-width: 900px;   
-	margin: 0 auto; 
-	width: 100%; 
-}
-
-
-.home{
+.site{
     display: grid;
     grid-template-areas:
         "banner"
@@ -32,6 +25,7 @@ body{
     grid-template-columns: 250px 650px;
     grid-template-rows: auto auto auto ;
 
+    margin: 0;
     background-color: var(--cinza);
 }
 
@@ -81,8 +75,9 @@ body{
 
     margin-top: 10%;
    
-    box-shadow: 3px 8px 8px -8px rgb(0 0 0 / 75%);
+
     border-radius: 1px 42px;
+
 }
 
 .titulo p{
