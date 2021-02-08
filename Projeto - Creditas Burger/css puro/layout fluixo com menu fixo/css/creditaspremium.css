@@ -1,3 +1,7 @@
+.cardapio {
+
+    padding-top:2em ;
+}
 .cardapio__nome__premium{
    
     background: var(--verde);
@@ -35,3 +39,22 @@
     transform: scale(1.05);
     transition: ease 0.5s;
 }
+
+@media screen and (max-width: 1615px){
+ 
+    .cardapio {
+        margin: auto;
+        margin-left: 25%;
+        width: 650px;
+        padding-top:2em ;
+    }
+
+    .cardapio__card{
+        margin-left: 10%;
+    }
+    .banner__titulo {
+        font-size: 43px;
+        
+    }
+}
+
