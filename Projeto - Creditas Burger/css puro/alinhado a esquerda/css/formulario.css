@@ -14,7 +14,7 @@
  
  
  .formulario__form{
-    height: 500px;
+    height: 560px;
     text-align: center;
  }
  
@@ -65,6 +65,27 @@
      margin-top: 10px;
      transition:  .35s ease-in-out;
  }
+ .formulario__form input[type=button] {
+    width: 178px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #ffff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+    transition:  .35s ease-in-out;
+}
+ .formulario__form input[type=button]:hover{
+	transform: scale(1.05);
+    transition:  .35s ease-in-out;
+    background: var(--cinza);
+    color: var(--preto);
+}
  
  
  .formulario__form input[type=text]:focus{
