@@ -8,7 +8,6 @@
 .destaques__card{
     width: 650px;
     height: 578px;
-    margin-left: 18%;
     width: 84%;
 }
 
@@ -28,7 +27,7 @@
 }
 
 .destaques .destaques__card:nth-child(2) .destaques__img{
-    
+    margin-left: 53%;
     background: url("../../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
   
 }
@@ -37,20 +36,17 @@
     background: url("../../../assents/img/banners/destaque3.jpg")  center / cover no-repeat;
 
 }
-
-.destaques__nome{
+.destaques__nome {
     background: var(--verde);
     font-size: 28px;
     color: var(--cinza);
-
-    text-align: center;  
-    height: 6%;
-    width: 319px;
-
+    text-align: center;
+    height: 8%;
+    width: 264px;
     position: relative;
     bottom: 380px;
     left: 189px;
-
+    font-size: 39px;
 }
 
 
@@ -60,24 +56,34 @@
     left: 415px;
     width: 175px;
 }
-
+.destaques .destaques__card:nth-child(2) .destaques__descricao{
+    position: relative;
+    bottom: 241px;
+    left: 51px;
+    width: 175px;
+}
 
 /*btn*/
 
-.destaque__btn{
+.destaque__btn {
     height: 87px;
+    width: 294px;
+    margin: auto;
+}
+.destaque__btn div a{
+    text-decoration: none;
+    color: var(--cinza);
+    display: -webkit-inline-box;
 }
 
-.destaque__btn a{
+.destaque__btn div a p {
     text-decoration: none;
+    color: var(--cinza);
+    margin: 6% 0 0 40%;
+    width: 100%;
 }
 
 .destaque__btn div{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     background-color: var(--verm);
     color: var(--cinza);
 
@@ -95,8 +101,7 @@
 
 .destaque__btn img{
     width: 30px;
-    margin-top: 3%;
-    margin-right: 2%;
+    margin:5% 0 0 32%;
   
     color: white;
 
@@ -105,9 +110,7 @@
 }
 
 .destaque__btn div:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 
     background-color: var(--verm);
     color: var(--cinza);
@@ -137,18 +140,12 @@
     .destaques__descricao{
         left: 387px;
     }
-    .destaque__btn div{
-        
-        margin-left:46%;
-    }
+  
 }
 
 @media screen and (max-width: 870px){
  
-    .destaque__btn div{
-        
-        margin-left:46%;
-    }
+
 
     .destaques__descricao {
         left: 378px;

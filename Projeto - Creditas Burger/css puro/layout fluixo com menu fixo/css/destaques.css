@@ -1,7 +1,7 @@
 .destaques{
     margin: auto;
     width: 650px;
-    margin-top: 7%;
+    margin-top: 1%;
 }
 
 
@@ -41,21 +41,18 @@
     
 }
 
-.destaques__nome{
+.destaques__nome {
     background: var(--verde);
     font-size: 28px;
     color: var(--cinza);
-
-    text-align: center;  
-    height: 6%;
-    width: 319px;
-
+    text-align: center;
+    height: 8%;
+    width: 264px;
     position: relative;
     bottom: 380px;
     left: 189px;
-
+    font-size: 39px;
 }
-
 
 .destaques__descricao{
     position: relative;
@@ -76,7 +73,10 @@
 
 .destaque__btn{
     height: 87px;
+    width: 80px;
+    margin-left: 33%;
 }
+
 
 .destaque__btn div a{
     text-decoration: none;

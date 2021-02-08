@@ -33,7 +33,7 @@ body{
    
     width: calc(100% - 18%);
     height: auto;
-    margin-left: 250px ;
+    margin-left: 18% ;
 
     background-color:var(--cinza);
 
@@ -53,10 +53,12 @@ body{
     text-align: center;
     background: var(--verm);
     color: var(--cinza);
-    margin: auto;
+
     width: 74%;
     height: 80px;
-    margin: 2% 0 0 34%;
+    margin: auto;
+  
     border-radius: 1px 42px;
     box-shadow: 3px 8px 8px -8px rgb(0 0 0 / 75%);
+    margin-bottom: 7%;
 }

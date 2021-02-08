@@ -56,8 +56,9 @@ body{
     margin: auto;
     width: 74%;
     height: 80px;
-    margin: 2% 0 6% 34%;
+
     border-radius: 1px 42px;
     box-shadow: 3px 8px 8px -8px rgb(0 0 0 / 75%);
+    margin-bottom: 5%;
 }
 
