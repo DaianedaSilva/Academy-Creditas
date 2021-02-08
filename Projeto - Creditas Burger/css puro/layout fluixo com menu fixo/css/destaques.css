@@ -8,7 +8,6 @@
 .destaques__card{
     width: 650px;
     height: 578px;
-    margin-left: 162px;
     width: 84%;
 }
 
@@ -19,6 +18,7 @@
     margin: 0 8%;
 
     transition: ease-in 0.5s;
+    box-shadow: 10px 8px 8px -8px rgb(0 0 0 / 75%);
 }
 
 .destaques .destaques__card:nth-child(1) .destaques__img{
@@ -29,7 +29,7 @@
 }
 
 .destaques .destaques__card:nth-child(2) .destaques__img{
-    
+    margin-left: 53%;
     background: url("../../../assents/img/banners/destaque2.1.jpg")  center / cover no-repeat;
   
     
@@ -63,6 +63,12 @@
     left: 415px;
     width: 175px;
 }
+.destaques .destaques__card:nth-child(2) .destaques__descricao{
+    position: relative;
+    bottom: 241px;
+    left: 51px;
+    width: 175px;
+}
 
 
 
@@ -72,8 +78,16 @@
     height: 87px;
 }
 
-.destaque__btn a{
+.destaque__btn div a{
     text-decoration: none;
+    color: var(--cinza);
+    display: -webkit-inline-box;
+}
+
+.destaque__btn div a p{
+    text-decoration: none;
+    color: var(--cinza);
+    margin: 5% 0 0 5%;
 }
 
 .destaque__btn div{
