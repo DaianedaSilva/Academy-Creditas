@@ -75,42 +75,48 @@
     left: 47px;
 }
 
-
 /*btn*/
 
-
+.destaque__btn {
+    height: 87px;
+    width: 262px;
+    margin-left: 33%;
+}
 
 .destaque__btn div a{
     text-decoration: none;
     color: var(--cinza);
-    display: flex;
+    display: -webkit-inline-box;
 }
-.destaque__btn div a p{
+
+.destaque__btn div a p {
+    text-decoration: none;
+    color: var(--cinza);
+    margin: 5% 0 0 36%;
     width: 150px;
-    margin: 5% 0 0 5%
 }
+
 .destaque__btn div{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    
     background-color: var(--verm);
     color: var(--cinza);
 
-    width: 250px;
+    width: 261px;
+    height: 40px;
     border-radius: 0 20px;
+    
     transition: ease 0.3s;
-
     box-shadow: 3px 10px 8px -8px rgb(0 0 0 / 75%);
-
     margin: auto;
+    
+    margin-top: 2%;
 }
 
 
 .destaque__btn img{
     width: 30px;
-    margin-top: 3%;
+    margin: 4% 25%;
   
     color: white;
 
@@ -119,9 +125,7 @@
 }
 
 .destaque__btn div:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 
     background-color: var(--verm);
     color: var(--cinza);
@@ -143,3 +147,4 @@
 
      transition: ease 0.3s;
 }
+

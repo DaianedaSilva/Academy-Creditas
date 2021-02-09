@@ -71,6 +71,8 @@
 
 /*btn*/
 
+
+
 .destaque__btn{
     height: 87px;
     width: 80px;
@@ -87,15 +89,13 @@
 .destaque__btn div a p{
     text-decoration: none;
     color: var(--cinza);
-    margin: 5% 0 0 5%;
+    margin: 5% 0 0 36%;
+    width: 150px;
 }
 
 .destaque__btn div{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    
     background-color: var(--verm);
     color: var(--cinza);
 
@@ -113,8 +113,7 @@
 
 .destaque__btn img{
     width: 30px;
-    margin-top: 3%;
-    margin-right: 2%;
+    margin: 4% 25%;
   
     color: white;
 
@@ -123,9 +122,7 @@
 }
 
 .destaque__btn div:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 
     background-color: var(--verm);
     color: var(--cinza);

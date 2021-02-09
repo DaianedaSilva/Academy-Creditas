@@ -62,14 +62,14 @@
     left: 51px;
     width: 175px;
 }
-
 /*btn*/
 
 .destaque__btn {
     height: 87px;
-    width: 294px;
-    margin: auto;
+    width: 262px;
+    margin-left: 33%;
 }
+
 .destaque__btn div a{
     text-decoration: none;
     color: var(--cinza);
@@ -79,11 +79,13 @@
 .destaque__btn div a p {
     text-decoration: none;
     color: var(--cinza);
-    margin: 6% 0 0 40%;
-    width: 100%;
+    margin: 5% 0 0 36%;
+    width: 150px;
 }
 
 .destaque__btn div{
+
+    
     background-color: var(--verm);
     color: var(--cinza);
 
@@ -101,7 +103,7 @@
 
 .destaque__btn img{
     width: 30px;
-    margin:5% 0 0 32%;
+    margin: 4% 25%;
   
     color: white;
 
@@ -132,6 +134,7 @@
 
      transition: ease 0.3s;
 }
+
 
 
 
