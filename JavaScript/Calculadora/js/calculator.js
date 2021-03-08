@@ -1,58 +1,26 @@
 
 let number1;
-let number2
+let number2;
+let operator;
 
-function CaptureValue(value){
-
-    if(value == "CE"){
-        ClearScreen()
-    }else{
-        
-        ShowOnScreen(value);
-    }
-
-    
-}
-
-
-const ShowOnScreen = (number)=>{
-   
-    const screen = document.getElementById('screen');
-
-    if(checkNumber(number)){
-        console.log("value:", number)
-     
-    
-        screen.innerHTML += number;
-
-    }else{
-        let valor = screen.innerHTML;
-        console.log("operador:", valor)
-
-        if (number1 == undefined){
-            number1 = valor;
-            
-        }else if (number2 == undefined){
-            number2 = valor;
-            if(number == "+"){
-                console.log("   soma:")
-                number = sum(number1, number2).toString()
-                
-                ShowOnScreen(number)
-               
-
-            }
-
-        }
-
-        ClearScreen()
-    }
-    
+const Reset = ()=>{
+    number1 = undefined;
+    number2 = undefined;
+    operator = undefined;
+    ClearScreen()
 }
 
 function ClearScreen(){
     const screen = document.getElementById('screen');
-    screen.innerHTML = "";
+    screen.innerHTML = " ";
+}
+
+function CaptureValue(value){
+    if(value == "CE"){
+        Reset()
+    }else{
+        ShowOnScreen(value);
+    }
 }
 
 function checkNumber(number){
@@ -63,12 +31,66 @@ function checkNumber(number){
     }
 }
 
+const ShowOnScreen = (number)=>{
+   
+    const screen = document.getElementById('screen');
 
-function sum(number1, number2){
+    if(checkNumber(number) || number=="."){
+        console.log("value:", number)
+       
+        screen.innerHTML += number;
+
+    }else{
+    
+        let value = screen.innerHTML;
+        
+        if (number1 == undefined){
+
+            number1 = value;
+
+            console.log('number1:', number1)
+            
+            operator = number;
+
+            console.log("operador:", operator)
+            ClearScreen()
+            
+        }else if (number2 == undefined){
+            console.log(value)
+
+            number2 = value;
+
+             ClearScreen()
+
+            let result = calculate(operator);
+            console.log("resultado:", result)
+            Reset()
+            ShowOnScreen(result)
+        }
+
+    }
+    
+}
+
+const calculate = (operator)=>{
+
     number1 = parseFloat(number1)
     number2 = parseFloat(number2)
-   let sum_number = number1 + number2
-   return sum_number
-   
+    console.log("operator:", operator)
+
+    switch (operator){
+        case '+':
+            return number1 + number2
+        case '-': 
+            return number1 - number2
+        case '/': 
+            return number1/number2 //validar divisão por 0
+        case 'x':
+            return (number1*number2)
+        case '=':
+            return
+
+    }
+    
 }
 
