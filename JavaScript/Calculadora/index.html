@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <section class="calculator_body">
+
+        <div class="calculator">
+            <article class="calculator_screen" id="screen"></article>
+
+            <article class="calculator_btns_number">
+    
+                <button id="value7"  onclick="CaptureValue(this.value)"  value="7"> 7 </button>
+                <button id="value8"  onclick="CaptureValue(this.value)"  value="8"> 8 </button>
+                <button id="value9"  onclick="CaptureValue(this.value)"  value="9"> 9 </button>
+                <button id="value4"  onclick="CaptureValue(this.value)"  value="4"> 4 </button>
+                <button id="value5"  onclick="CaptureValue(this.value)" value="5"> 5 </button>
+                <button id="value6"  onclick="CaptureValue(this.value)" value="6"> 6 </button>
+                <button id="value1"  onclick="CaptureValue(this.value)" value="1"> 1 </button>
+                <button id="value2"  onclick="CaptureValue(this.value)" value="2"> 2 </button>
+                <button id="value3"  onclick="CaptureValue(this.value)" value="3"> 3 </button>
+                <button id="value0"  onclick="CaptureValue(this.value)" value="0"> 0 </button>
+                <button id="value."  onclick="CaptureValue(this.value)" value="."> . </button>
+    
+            </article>
+    
+            <article class="calculator_btns_operators">
+               
+                <button onclick="CaptureValue(this.value)" value="÷"> ÷ </button>
+                <button onclick="CaptureValue(this.value)" value="×"> × </button>
+                <button onclick="CaptureValue(this.value)" value="+"> + </button>
+                <button onclick="CaptureValue(this.value)" value="-"> - </button>
+                <button onclick="CaptureValue(this.value)" value="CE"> CE </button>
+                <button onclick="CaputureValue(this.value)" value ="=" > = </button>
+                
+            </article>
+        </div>
+
+
+    </section>
+
+  
+    <script src="js/calculator.js"></script>
+    
+</body>
+
+</html>
