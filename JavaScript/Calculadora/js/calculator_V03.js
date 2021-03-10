@@ -29,12 +29,14 @@ const CaptureOperator = (value_operator) =>{
         ClearScreen()
 
     }else if(value_operator == "="){
-        if (lastValue == "operator"){
-            capturerNumbe1()
+
+        if (lastValue == "number"){
+            capturerNumbe2()
             calculate(operator)
+            
 
         }else{
-            capturerNumbe2()
+            capturerNumbe1()
             calculate(operator)
         } 
 
@@ -42,28 +44,21 @@ const CaptureOperator = (value_operator) =>{
         operator = value_operator
         capturerNumbe1() 
     }
- 
-    console.log("ultimo apertado:",lastValue)
 
-   console.log(operator)
    LastValue("operator")
 
 }
 
 const calculate = (operator)=>{
 
-    console.log("calculete:", operator)
-
     let result;
     number1 = parseFloat(number1)
     number2 = parseFloat(number2)
-    console.log("number1:", number1)
-    console.log("number2:", number2)
+
 
     switch (operator){
         case '+':
             result =  number1 + number2
-            console.log("result:", result)
             ClearScreen()
             ShowOnScreen(result)
             return
@@ -93,10 +88,7 @@ const calculate = (operator)=>{
 }
 
 const capturerNumbe1 = () =>{
-
-    
     let number = screen.innerHTML;
-
     number1 = number;
     console.log('Capturando number1:', number1)
         
@@ -113,12 +105,10 @@ const LastValue = (value) =>{
 }
 
 const ClearScreen = ()=>{
-    
     screen.innerHTML = " ";
 }
 
 const ShowOnScreen = (number) =>{
-    
     screen.innerHTML += number;
 }
 
