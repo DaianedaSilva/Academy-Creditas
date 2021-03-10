@@ -14,7 +14,9 @@ const CaptureValue = (value)=>{
         }
     
         ShowOnScreen(value)
+
         LastValue("number")
+
     }else {
 
         CaptureOperator(value)
@@ -27,38 +29,54 @@ const CaptureOperator = (value_operator) =>{
     
     if(value_operator == "CE"){
         ClearScreen()
+        Reset()
 
-    }else if(value_operator == "="){
+    }else if(value_operator == "=" ){
 
         if (lastValue == "number"){
+            
             capturerNumbe2()
             calculate(operator)
-            
-
+        
         }else{
+
             capturerNumbe1()
             calculate(operator)
+
         } 
 
+    }else if(value_operator == operator){
+
+        capturerNumbe2()
+        calculate(operator)
+      
+        
     }else{
+
         operator = value_operator
         capturerNumbe1() 
-    }
 
-   LastValue("operator")
+    }
+    
+    LastValue("operator")
 
 }
 
 const calculate = (operator)=>{
 
     let result;
+
     number1 = parseFloat(number1)
     number2 = parseFloat(number2)
+
+    console.log("number1", number1)
+    console.log("number2", number2)
 
 
     switch (operator){
         case '+':
             result =  number1 + number2
+            console.log("result", result)
             ClearScreen()
             ShowOnScreen(result)
             return
@@ -118,5 +136,11 @@ const checkNumber = (value)=>{
     }else{
         return true
     }
+}
+
+const Reset= () =>{
+    number1 = undefined;
+    number2 = undefined;
+    operator = undefined;
 }
 
