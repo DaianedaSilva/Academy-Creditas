@@ -22,7 +22,7 @@ body{
 
 h1{
     color: white;
-    margin-bottom: 11%;
+    margin-bottom: 5%;
 }
 
 
@@ -72,6 +72,9 @@ button:hover{
     
 }
 
+button:active{
+    background-color:  white;
+}
 
 .calculator_btns_number{ /*box dos numbers*/
     height: 200px;
@@ -89,6 +92,11 @@ button:hover{
 
     margin-left: 10%;
     width: 140px;
+}
+
+.calculator_btns_operators button:focus{
+    background: rgb(65 69 101);
+    color: white;
 }
 
 
