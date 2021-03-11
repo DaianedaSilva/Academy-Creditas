@@ -25,6 +25,12 @@ h1{
     margin-bottom: 11%;
 }
 
+#screen{
+    align-items: center;
+    background: rgb(65 69 101);
+    color: white;
+}
+
 
 .calculator_body{
     height: 340px;
