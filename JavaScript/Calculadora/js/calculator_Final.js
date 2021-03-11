@@ -6,7 +6,7 @@ let lastValue = " ";
 
 const CaptureValue = (value)=>{
 
-    if (checkNumber(value) || value=="."){
+    if (CheckNumber(value) || value=="."){
 
         if (lastValue == 'operator'){
             ClearScreen()
@@ -18,7 +18,7 @@ const CaptureValue = (value)=>{
     }else {
         if(screen.innerHTML != " ")
             CaptureOperator(value)
-  
+
     }
 }
 
@@ -36,41 +36,38 @@ const CaptureOperator = (value_operator) =>{
 
             if (lastValue == "number"){
 
-                capturerNumbe2();
-                calculate(operator);
+                CapturerNumbe2();
+                Calculate(operator);
 
             }
             else{
                 
-                capturerNumbe1();
-                calculate(operator);
+                CapturerNumbe1();
+                Calculate(operator);
 
             } 
             LastValue("operator");
             return
 
-        case operator:
+        case operator://caso aperte o mesmo operador mais uma vez, depois de digitar um número, realiza a operação
            
             if (lastValue == "number"){
 
-                capturerNumbe2();
-                calculate(operator);
+                CapturerNumbe2();
+                Calculate(operator);
                 
             }
-
-            LastValue("operator");
            
         default:
-            
             operator = value_operator;
-            capturerNumbe1(); 
+            CapturerNumbe1(); 
             LastValue("operator");
             return
     }
 
 }
 
-const calculate = (operator)=>{
+const Calculate = (operator)=>{
 
     let result;
 
@@ -109,13 +106,13 @@ const calculate = (operator)=>{
     }
 }
 
-const capturerNumbe1 = () =>{
+const CapturerNumbe1 = () =>{
     let number = screen.innerHTML;
     number1 = number;
         
 }
 
-const capturerNumbe2 = () =>{
+const CapturerNumbe2 = () =>{
     let number = screen.innerHTML;
     number2 = number;
 }
@@ -132,7 +129,7 @@ const ShowOnScreen = (number) =>{
     screen.innerHTML += number;
 }
 
-const checkNumber = (value)=>{
+const CheckNumber = (value)=>{
     if (isNaN(value)){
         return false
     }else{

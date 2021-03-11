@@ -1,5 +1,7 @@
 :root{
     --body_color:radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%), radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    --button_color:rgba(42, 50, 113, 0.28);
+    --button_color_hover: rgb(65 69 101);
     --height-btns: 50px;
     --width-btns: 70px;
     /* linear-gradient(to right top, #5a5e67, #636c7e, #6b7996, #7388af, #7b96c8, #84a0d3, #8eaadf, #97b4ea, #a3bce9, #b0c4e9, #bccce8, #c9d4e7);
@@ -15,9 +17,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  
-    
-    
+
 }
 
 h1{
@@ -52,7 +52,7 @@ h1{
 
 
 button{
-    background: rgba(42, 50, 113, 0.28);
+    background: var(--button_color);
     color: #6cacc5;
     cursor: pointer;
     width: var(--width-btns);
@@ -65,7 +65,7 @@ button{
 }
 
 button:hover{
-    background: rgb(65 69 101);
+    background: var(--button_color_hover);
     color: #6cacc5;
     cursor: pointer;
     transition: ease .5s;
@@ -96,18 +96,16 @@ button:active{
 }
 
 .calculator_btns_operators button:focus{
-    background: rgb(65 69 101);
+    background: var(--button_color_hover);
     color: white;
 }
 
 
 .calculator_btns_operators button:nth-child(6){  /*operator =*/
     height: 148px;
-   
     margin-right: -3px
 }
 
 .calculator_btns_number button:last-child{ /* tamanho do . */
     width: 139px;
-    
 }
