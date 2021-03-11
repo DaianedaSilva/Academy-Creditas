@@ -25,12 +25,6 @@ h1{
     margin-bottom: 11%;
 }
 
-#screen{
-    align-items: center;
-    background: rgb(65 69 101);
-    color: white;
-}
-
 
 .calculator_body{
     height: 340px;
@@ -44,11 +38,17 @@ h1{
 
 .calculator_screen{
 
-    background-color: white;
+    align-items: center;
+    background: rgb(65 69 101);
+    color: white;
     height: 50px;
     width: 100%;
-
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 button{
     background: rgba(42, 50, 113, 0.28);
@@ -57,19 +57,28 @@ button{
     width: var(--width-btns);
     height: var(--height-btns);
 
-    //border: 0.05em solid ;
+    /* detalhe borda*/
+    margin-right: -5px;
+    margin-bottom: -1px; 
+    transition: ease .2s;
+}
 
+button:hover{
+    background: rgb(65 69 101);
+    color: #6cacc5;
+    cursor: pointer;
+    transition: ease .5s;
+    color: white;
     
 }
+
 
 .calculator_btns_number{ /*box dos numbers*/
     height: 200px;
     width: 210px;
 
 }
-.calculator_btns_number button{ /* tirando margin*/
-    margin-right: -5px;
-}
+
 
 .calculator_btns_operators{ /*box dos operators*/
     
@@ -84,9 +93,12 @@ button{
 
 
 .calculator_btns_operators button:nth-child(6){  /*operator =*/
-    height: 150px;
+    height: 148px;
+   
+    margin-right: -3px
 }
 
-.calculator_btns_number button:last-child{ /* tirando margin*/
-    width: 140px;
+.calculator_btns_number button:last-child{ /* tamanho do . */
+    width: 139px;
+    
 }
