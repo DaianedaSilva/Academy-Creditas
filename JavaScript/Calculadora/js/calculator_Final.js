@@ -18,47 +18,61 @@ const CaptureValue = (value)=>{
         LastValue("number")
 
     }else {
-
-        CaptureOperator(value)
         
+        CaptureOperator(value)
+        result_show = false;
     }
 }
 
 
 const CaptureOperator = (value_operator) =>{
-    
-    if(value_operator == "CE"){
-        ClearScreen()
-        Reset()
 
-    }else if(value_operator == "=" ){
+    switch (value_operator){
 
-        if (lastValue == "number"){
+        case 'CE':
+            ClearScreen();
+            Reset();
+            return
+
+        case '=': 
+
+            if (lastValue == "number"){
+
+                
+                capturerNumbe2();
+                console.log("number2 capturado:", number2);
+                calculate(operator);
+
+            }
+            else{
+                
+                capturerNumbe1();
+                console.log("number1 capturado:", number1);
+                calculate(operator);
+
+            } 
+            LastValue("operator");
+            return
+
+        case operator:
+           
+            if (lastValue == "number"){
+
+                capturerNumbe2();
+                console.log("number2 capturado:", number2);
+                calculate(operator);
+                
+            }
+
+            LastValue("operator");
+           
+        default:
             
-            capturerNumbe2()
-            calculate(operator)
-        
-        }else{
-
-            capturerNumbe1()
-            calculate(operator)
-
-        } 
-
-    }else if(value_operator == operator){
-
-        capturerNumbe2()
-        calculate(operator)
-      
-        
-    }else{
-
-        operator = value_operator
-        capturerNumbe1() 
-
+            operator = value_operator;
+            capturerNumbe1(); 
+            LastValue("operator");
+            return
     }
-    
-    LastValue("operator")
 
 }
 
@@ -69,16 +83,13 @@ const calculate = (operator)=>{
     number1 = parseFloat(number1)
     number2 = parseFloat(number2)
 
-    console.log("number1", number1)
-    console.log("number2", number2)
-
-
     switch (operator){
         case '+':
             result =  number1 + number2
             console.log("result", result)
             ClearScreen()
             ShowOnScreen(result)
+            
             return
         case '-': 
             result =  number1 - number2
@@ -108,14 +119,14 @@ const calculate = (operator)=>{
 const capturerNumbe1 = () =>{
     let number = screen.innerHTML;
     number1 = number;
-    console.log('Capturando number1:', number1)
+    
         
 }
 
 const capturerNumbe2 = () =>{
     let number = screen.innerHTML;
     number2 = number;
-    console.log(" Capturando number2:", number2)
+
 }
 
 const LastValue = (value) =>{
