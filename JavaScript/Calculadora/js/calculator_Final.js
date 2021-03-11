@@ -1,4 +1,3 @@
-
 let number1;
 let number2;
 let operator;
@@ -14,13 +13,12 @@ const CaptureValue = (value)=>{
         }
     
         ShowOnScreen(value)
-
         LastValue("number")
 
     }else {
-        
-        CaptureOperator(value)
-        result_show = false;
+        if(screen.innerHTML != " ")
+            CaptureOperator(value)
+  
     }
 }
 
@@ -38,16 +36,13 @@ const CaptureOperator = (value_operator) =>{
 
             if (lastValue == "number"){
 
-                
                 capturerNumbe2();
-                console.log("number2 capturado:", number2);
                 calculate(operator);
 
             }
             else{
                 
                 capturerNumbe1();
-                console.log("number1 capturado:", number1);
                 calculate(operator);
 
             } 
@@ -59,7 +54,6 @@ const CaptureOperator = (value_operator) =>{
             if (lastValue == "number"){
 
                 capturerNumbe2();
-                console.log("number2 capturado:", number2);
                 calculate(operator);
                 
             }
@@ -86,7 +80,6 @@ const calculate = (operator)=>{
     switch (operator){
         case '+':
             result =  number1 + number2
-            console.log("result", result)
             ClearScreen()
             ShowOnScreen(result)
             
@@ -119,14 +112,12 @@ const calculate = (operator)=>{
 const capturerNumbe1 = () =>{
     let number = screen.innerHTML;
     number1 = number;
-    
         
 }
 
 const capturerNumbe2 = () =>{
     let number = screen.innerHTML;
     number2 = number;
-
 }
 
 const LastValue = (value) =>{
