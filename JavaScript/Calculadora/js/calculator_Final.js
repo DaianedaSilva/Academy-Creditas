@@ -17,13 +17,13 @@ const CaptureValue = (value)=>{
 
     }else {
         if(screen.innerHTML != " ")
-            CaptureOperator(value)
+            PrepareOperation(value)
 
     }
 }
 
 
-const CaptureOperator = (value_operator) =>{
+const PrepareOperation = (value_operator) =>{
 
     switch (value_operator){
 
@@ -41,7 +41,7 @@ const CaptureOperator = (value_operator) =>{
 
             }
             else{
-                
+
                 CapturerNumbe1();
                 Calculate(operator);
 
