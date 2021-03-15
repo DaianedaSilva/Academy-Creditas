@@ -22,7 +22,6 @@ const CaptureValue = (value)=>{
     }
 }
 
-Captura
 const PrepareOperation = (value_operator) =>{
 
     switch (value_operator){
