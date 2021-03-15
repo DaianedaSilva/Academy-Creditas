@@ -22,7 +22,7 @@ const CaptureValue = (value)=>{
     }
 }
 
-
+Captura
 const PrepareOperation = (value_operator) =>{
 
     switch (value_operator){
@@ -35,13 +35,13 @@ const PrepareOperation = (value_operator) =>{
         case '=': 
 
             if (lastValue == "number"){
-
+                //captura valor na tela e faz a conta
                 CapturerNumbe2();
                 Calculate(operator);
 
             }
             else{
-
+                // o Number1 agr é o valor da tela e faz a conta mantendo o number2
                 CapturerNumbe1();
                 Calculate(operator);
 
@@ -56,7 +56,7 @@ const PrepareOperation = (value_operator) =>{
                 CapturerNumbe2();
                 Calculate(operator);
                 
-            }
+            }//se aperta novamente, ele vai para o default
            
         default:
             operator = value_operator;
@@ -79,7 +79,6 @@ const Calculate = (operator)=>{
             result =  number1 + number2
             ClearScreen()
             ShowOnScreen(result)
-            
             return
         case '-': 
             result =  number1 - number2
