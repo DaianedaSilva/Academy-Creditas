@@ -1,58 +1,27 @@
-let number1;
-let number2;
-let operator;
-const screen = document.getElementById('screen');
-let lastValue = " "; //registra o tipo do ultimo botão apertado
 
-const CapturerNumbe1 = () =>{
-    let number = screen.innerHTML;
-    number1 = number;
-}
-
-const CapturerNumbe2 = () =>{
-    let number = screen.innerHTML;
-    number2 = number;
-}
-
-const LastValue = (value) =>{
-    lastValue = value;
-}
-
-const ClearScreen = ()=>{
-    screen.innerHTML = " ";
-}
-
-const ShowOnScreen = (number) =>{
-    screen.innerHTML += number;
-}
-
-const CheckNumber = (value)=>{
-    if (isNaN(value)){
-        return false
-    }else{
-        return true
-    }
-}
-
-const Reset= () =>{
-    number1 = undefined;
-    number2 = undefined;
-    operator = undefined;
-}
+document.ready(function(){
+    let number1;
+    let number2;
+    let operator;
+    const screen = document.getElementById('screen');
+    let lastValue = " ";
 
 
+
+
+)
 const CaptureValue = (value)=>{
 
     if (CheckNumber(value) || value=="."){
 
-        if (lastValue == 'operator')
+        if (lastValue == 'operator'){
             ClearScreen()
-        
+        }
+    
         ShowOnScreen(value)
         LastValue("number")
 
     }else {
-
         if(screen.innerHTML != " ")
             PrepareOperation(value)
 
@@ -103,6 +72,10 @@ const PrepareOperation = (value_operator) =>{
 
 }
 
+const CheckLastValue = ()=>
+
+]
+
 
 const Calculate = (operator)=>{
 
@@ -141,3 +114,41 @@ const Calculate = (operator)=>{
             return
     }
 }
+
+const CapturerNumbe1 = () =>{
+    let number = screen.innerHTML;
+    number1 = number;
+        
+}
+
+const CapturerNumbe2 = () =>{
+    let number = screen.innerHTML;
+    number2 = number;
+}
+
+const LastValue = (value) =>{
+    lastValue = value;
+}
+
+const ClearScreen = ()=>{
+    screen.innerHTML = " ";
+}
+
+const ShowOnScreen = (number) =>{
+    screen.innerHTML += number;
+}
+
+const CheckNumber = (value)=>{
+    if (isNaN(value)){
+        return false
+    }else{
+        return true
+    }
+}
+
+const Reset= () =>{
+    number1 = undefined;
+    number2 = undefined;
+    operator = undefined;
+}
+

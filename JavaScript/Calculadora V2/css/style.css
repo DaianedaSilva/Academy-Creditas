@@ -1,0 +1,111 @@
+:root{
+    --body_color:radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%), radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    --button_color:rgba(42, 50, 113, 0.28);
+    --button_color_hover: rgb(65 69 101);
+    --height-btns: 50px;
+    --width-btns: 70px;
+    /* linear-gradient(to right top, #5a5e67, #636c7e, #6b7996, #7388af, #7b96c8, #84a0d3, #8eaadf, #97b4ea, #a3bce9, #b0c4e9, #bccce8, #c9d4e7);
+    background-image: */
+}
+
+body{
+    background-image: var(--body_color);
+    height: 100vh;
+    width: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h1{
+    color: white;
+    margin-bottom: 5%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.calculator_body{
+    height: 340px;
+    width: 390px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calculator_screen{
+
+    align-items: center;
+    background: rgb(65 69 101);
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+button{
+    background: var(--button_color);
+    color: #6cacc5;
+    cursor: pointer;
+    width: var(--width-btns);
+    height: var(--height-btns);
+
+    /* detalhe borda*/
+    margin-right: -5px;
+    margin-bottom: -1px; 
+    transition: ease .2s;
+}
+
+button:hover{
+    background: var(--button_color_hover);
+    color: #6cacc5;
+    cursor: pointer;
+    transition: ease .5s;
+    color: white;
+    
+}
+
+button:active{
+    background-color:  white;
+}
+
+.calculator_btns_number{ /*box dos numbers*/
+    height: 200px;
+    width: 210px;
+
+}
+
+
+.calculator_btns_operators{ /*box dos operators*/
+    
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin-left: 10%;
+    width: 140px;
+}
+
+.calculator_btns_operators button:focus{
+    background: var(--button_color_hover);
+    color: white;
+}
+
+
+.calculator_btns_operators button:nth-child(6){  /*operator =*/
+    height: 148px;
+    margin-right: -3px
+}
+
+.calculator_btns_number button:last-child{ /* tamanho do . */
+    width: 139px;
+}
