@@ -4,12 +4,12 @@ let operator;
 const screen = document.getElementById('screen');
 let lastValue = " "; //registra o tipo do ultimo botão apertado
 
-const CapturerNumber1 = () =>{
+const CapturerNumbe1 = () =>{
     let number = screen.innerHTML;
     number1 = number;
 }
 
-const CapturerNumber2 = () =>{
+const CapturerNumbe2 = () =>{
     let number = screen.innerHTML;
     number2 = number;
 }
@@ -70,54 +70,41 @@ const PrepareOperation = (value_operator) =>{
 
         case '=': 
 
-            PrepareCalculeteForEqual();
+            if (lastValue == "operator"){
+                // o Number1 agr é o valor da tela e realiza a ultima operação mantendo o number2
+                CapturerNumbe1();
+                Calculate(operator);
+            }
+            else{
+                //captura valor na tela e realiza a conta
+                CapturerNumbe2();
+                Calculate(operator);
+            } 
             LastValue("operator");
             break
 
-        case operator://apertar o mesmo operador que antes           
+        case operator://caso aperte o mesmo operador mais uma vez, depois de digitar um número, realiza a operação, se não digitou um numero apenas caputura o valor da tela para a nova operação
            
-            PrepareCaleculte();
-            LastValue("operator");
-            break
+            if (lastValue == "number"){
+                CapturerNumbe2();
+                Calculate(operator);
+                
+            }else{
+                CapturerNumbe1(); 
+            }
+            
            
         default://outros operadores
             operator = value_operator; //registra o operator para fazer a conta
+            CapturerNumbe1(); 
             LastValue("operator");
-            PrepareCaleculte();  
             break
+
+
+            
     }
 }
 
-const PrepareCaleculte = () =>{ //so realiza a conta quando tiver o number2
-
-    switch(lastValue){//verifica qual foi o tipo da ultima tecla clicada
-        
-        case "operator":
-            CapturerNumber1();
-            break
-
-        case "number":
-            CapturerNumber2();
-            Calculate(operator)
-            break
-    }
-
-}
-
-const PrepareCalculeteForEqual = () =>{ //sempre realiza a conta
-
-    switch(lastValue){//verifica qual foi o tipo da ultima tecla clicada
-        
-        case "operator":
-            CapturerNumber1();
-            break
-        case "number":
-            CapturerNumber2();
-            break
-    }
-
-    Calculate(operator)
-}
 
 const Calculate = (operator)=>{
 
@@ -142,7 +129,6 @@ const Calculate = (operator)=>{
                 ClearScreen()
                 ShowOnScreen("ERROR DIVISÃO 0")
                 setTimeout(ClearScreen,600)
-                Reset()
                 
             }else{
                 result = number1/number2 
