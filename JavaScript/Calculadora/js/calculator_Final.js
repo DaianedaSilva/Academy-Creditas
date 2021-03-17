@@ -66,41 +66,43 @@ const PrepareOperation = (value_operator) =>{
         case 'CE':
             ClearScreen();
             Reset();
-            return
+            break
 
         case '=': 
 
-            if (lastValue == "number"){
-                //captura valor na tela e faz a conta
-                CapturerNumbe2();
-                Calculate(operator);
-
-            }
-            else{
-                // o Number1 agr é o valor da tela e faz a conta mantendo o number2
+            if (lastValue == "operator"){
+                // o Number1 agr é o valor da tela e realiza a ultima operação mantendo o number2
                 CapturerNumbe1();
                 Calculate(operator);
-
+            }
+            else{
+                //captura valor na tela e realiza a conta
+                CapturerNumbe2();
+                Calculate(operator);
             } 
             LastValue("operator");
-            return
+            break
 
-        case operator://caso aperte o mesmo operador mais uma vez, depois de digitar um número, realiza a operação
+        case operator://caso aperte o mesmo operador mais uma vez, depois de digitar um número, realiza a operação, se não digitou um numero apenas caputura o valor da tela para a nova operação
            
             if (lastValue == "number"){
-
                 CapturerNumbe2();
                 Calculate(operator);
                 
-            }//se aperta novamente, ele vai para o default
+            }else{
+                CapturerNumbe1(); 
+            }
+            
            
-        default:
-            operator = value_operator;
+        default://outros operadores
+            operator = value_operator; //registra o operator para fazer a conta
             CapturerNumbe1(); 
             LastValue("operator");
-            return
-    }
+            break
 
+
+            
+    }
 }
 
 
