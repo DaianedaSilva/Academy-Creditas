@@ -3,11 +3,11 @@ Site desenvolvido em HTML e CSS para o estudo das linguagens
 
 ### Páginas do Site:
 - Home - Possui um bem vindo e 3 produtos em destaque
-- Sushi;
-- Sushi premium;
+- Cardápio;
+- Creditas premium;
 - Contato (formulário com nome, email, mensagem e o botão) - mapa do google com a localização do restaurante
 - Quem somos - Tela com descrição do restaurante
-- O box do produto nas listas contém a foto, nome e uma mini descrição.
+
 
 ## Versões Desenvolvidas:
 
